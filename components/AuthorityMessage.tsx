@@ -54,7 +54,7 @@ const AuthorityMessage = () => {
             {data.role}
           </span>
           <p className="text-gray-700 italic text-lg leading-relaxed h-[160px] overflow-y-auto pr-2">
-            "{data.message}"
+            &ldquo;{data.message}&rdquo;
           </p>
           <div className="pt-4">
             <h3 className="text-[#1f3c88] font-bold text-lg">{data.name}</h3>
