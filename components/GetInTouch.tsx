@@ -105,7 +105,7 @@ const GetInTouch = () => {
                 Send us a Message
               </h3>
               <p className="text-gray-600 mb-8">
-                We'll get back to you within 24 hours
+                {`We'll`} get back to you within 24 hours
               </p>
 
               {isSubmitted ? (

@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import Image from "next/image";
 
 interface Testimonial {
   id: number;
@@ -26,8 +27,6 @@ const testimonials: Testimonial[] = [
       "The teachers at Vinayak are incredibly supportive. My daughter has grown so much in confidence and knowledge.",
     bgColor: "bg-pink-100",
     textColor: "text-pink-700",
-    image:
-      "https://images.unsplash.com/photo-1502764612704-e9c8b3d2f0a5?w=100&h=100&fit=crop&crop=face",
   },
   {
     id: 2,
@@ -50,8 +49,6 @@ const testimonials: Testimonial[] = [
       "Vinayak gave me the foundation I needed for success. Now I'm pursuing engineering with their guidance.",
     bgColor: "bg-green-100",
     textColor: "text-green-700",
-    image:
-      "https://images.unsplash.com/photo-1494790108755-2616b332c3db?w=100&h=100&fit=crop&crop=face",
   },
   {
     id: 4,
@@ -63,8 +60,6 @@ const testimonials: Testimonial[] = [
       "The holistic education approach at Vinayak helped me develop both academically and personally.",
     bgColor: "bg-yellow-100",
     textColor: "text-yellow-700",
-    image:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
   },
   {
     id: 5,
@@ -119,10 +114,12 @@ const TestimonialCard: React.FC<{ testimonial: Testimonial }> = ({
           }`}
         >
           {testimonial.image ? (
-            <img
+            <Image
               src={testimonial.image}
               alt={testimonial.name}
-              className="w-full h-full object-cover"
+              width={48}
+              height={48}
+              className="rounded-full object-cover w-full h-full"
             />
           ) : (
             testimonial.initials

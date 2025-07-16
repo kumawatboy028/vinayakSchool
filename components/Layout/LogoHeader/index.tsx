@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const LogoHeader = () => {
   return (
@@ -18,19 +19,19 @@ const LogoHeader = () => {
         {/* Social Links */}
         <ul className="flex gap-4 text-sm text-gray-800 dark:text-gray-300">
           <li>
-            <a href="/" className="hover:underline">
+            <Link href="/" className="hover:underline">
               Facebook
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/" className="hover:underline">
+            <Link href="/" className="hover:underline">
               Instagram
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/" className="hover:underline">
+            <Link href="/" className="hover:underline">
               Twitter
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
