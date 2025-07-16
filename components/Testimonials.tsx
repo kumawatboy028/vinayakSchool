@@ -99,7 +99,7 @@ const TestimonialCard: React.FC<{ testimonial: Testimonial }> = ({
       <div className="flex gap-1 mb-4">{stars}</div>
 
       <p className="text-gray-700 text-lg italic leading-relaxed mb-6 flex-grow">
-        "{testimonial.quote}"
+        &ldquo;{testimonial.quote}&rdquo;
       </p>
 
       <div className="flex items-center gap-4">

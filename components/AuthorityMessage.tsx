@@ -14,7 +14,7 @@ const messages = [
   },
   {
     role: `Chairman's Message`,
-    message: `Education is about learning for oneself and gaining the wisdom to live meaningfully. We strive to nurture each child's unique potential through experiential learning, strong values, and holistic development.`,
+    message: `Education is about learning for oneself and gaining the wisdom to live meaningfully. We strive to nurture each child&#39;s unique potential through experiential learning, strong values, and holistic development.`,
     name: "Mr. Mahesh Kumar Sharma",
     position: "Chairman",
     qualifications: "",
