@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
 
@@ -96,18 +96,15 @@ const TestimonialCard: React.FC<{ testimonial: Testimonial }> = ({
 
   return (
     <div className="bg-white rounded-2xl shadow-lg p-8 h-full flex flex-col justify-between min-h-[320px]">
-      {/* Stars */}
       <div className="flex gap-1 mb-4">{stars}</div>
 
-      {/* Quote */}
       <p className="text-gray-700 text-lg italic leading-relaxed mb-6 flex-grow">
         "{testimonial.quote}"
       </p>
 
-      {/* Profile */}
       <div className="flex items-center gap-4">
         <div
-          className={`w-12 h-12 rounded-full flex items-center justify-center font-bold text-lg overflow-hidden ${
+          className={`w-12 h-12 rounded-full overflow-hidden flex items-center justify-center font-bold text-lg ${
             testimonial.image
               ? "bg-gray-200"
               : `${testimonial.bgColor} ${testimonial.textColor}`
@@ -119,7 +116,7 @@ const TestimonialCard: React.FC<{ testimonial: Testimonial }> = ({
               alt={testimonial.name}
               width={48}
               height={48}
-              className="rounded-full object-cover w-full h-full"
+              className="object-cover w-full h-full"
             />
           ) : (
             testimonial.initials
@@ -139,6 +136,7 @@ const TestimonialCard: React.FC<{ testimonial: Testimonial }> = ({
 const Testimonials = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [itemsPerPage, setItemsPerPage] = useState(3);
+  const [isPaused, setIsPaused] = useState(false);
 
   useEffect(() => {
     const updateItemsPerPage = () => {
@@ -156,31 +154,34 @@ const Testimonials = () => {
     return () => window.removeEventListener("resize", updateItemsPerPage);
   }, []);
 
+  useEffect(() => {
+    setCurrentIndex(0); // Reset on resize
+  }, [itemsPerPage]);
+
   const totalPages = Math.ceil(testimonials.length / itemsPerPage);
 
-  const nextSlide = () => {
+  const nextSlide = useCallback(() => {
     setCurrentIndex((prev) => (prev + 1) % totalPages);
-  };
+  }, [totalPages]);
 
-  const prevSlide = () => {
+  const prevSlide = useCallback(() => {
     setCurrentIndex((prev) => (prev - 1 + totalPages) % totalPages);
-  };
+  }, [totalPages]);
+
+  useEffect(() => {
+    if (isPaused) return;
+    const interval = setInterval(nextSlide, 5000);
+    return () => clearInterval(interval);
+  }, [isPaused, nextSlide]);
 
   const getCurrentTestimonials = () => {
     const start = currentIndex * itemsPerPage;
     return testimonials.slice(start, start + itemsPerPage);
   };
 
-  // Auto-slide functionality
-  useEffect(() => {
-    const interval = setInterval(nextSlide, 5000);
-    return () => clearInterval(interval);
-  }, [totalPages]);
-
   return (
     <section className="w-full py-20 bg-[#f4e5a5] px-4">
       <div className="max-w-7xl mx-auto">
-        {/* Header */}
         <div className="text-center mb-12">
           <span className="inline-block bg-pink-100 text-pink-700 font-medium px-4 py-2 rounded-full text-sm mb-4">
             Testimonials
@@ -194,9 +195,11 @@ const Testimonials = () => {
           </p>
         </div>
 
-        {/* Carousel Container */}
-        <div className="relative">
-          {/* Testimonials Grid */}
+        <div
+          className="relative"
+          onMouseEnter={() => setIsPaused(true)}
+          onMouseLeave={() => setIsPaused(false)}
+        >
           <div
             className={`grid gap-8 mb-8 ${
               getCurrentTestimonials().length === 1
@@ -218,13 +221,13 @@ const Testimonials = () => {
             ))}
           </div>
 
-          {/* Navigation Arrows */}
           <button
             onClick={prevSlide}
             className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 bg-white hover:bg-gray-50 shadow-lg rounded-full p-3 transition-all duration-200 hover:scale-110"
             aria-label="Previous testimonials"
           >
-            <ChevronLeft className="w-6 h-6 text-gray-600" />
+            <ChevronLeft className="w-6 h-6 text-gray-600" aria-hidden="true" />
+            <span className="sr-only">Previous</span>
           </button>
 
           <button
@@ -232,11 +235,14 @@ const Testimonials = () => {
             className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 bg-white hover:bg-gray-50 shadow-lg rounded-full p-3 transition-all duration-200 hover:scale-110"
             aria-label="Next testimonials"
           >
-            <ChevronRight className="w-6 h-6 text-gray-600" />
+            <ChevronRight
+              className="w-6 h-6 text-gray-600"
+              aria-hidden="true"
+            />
+            <span className="sr-only">Next</span>
           </button>
         </div>
 
-        {/* Indicator Dots */}
         <div className="flex justify-center gap-2">
           {Array.from({ length: totalPages }, (_, index) => (
             <button
