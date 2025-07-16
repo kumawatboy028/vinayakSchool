@@ -68,9 +68,8 @@ const Footer = () => {
                 <p className="text-white text-sm">Excellence in Education</p>
               </div>
             </div>
-
             <p className="text-white mb-6 leading-relaxed">
-              we are whole-heartedly dedicated to assist children in their
+              We are whole-heartedly dedicated to assist children in their
               self-enlightenment besides ensuring a synchronous growth of their
               mind, body and soul.
             </p>
@@ -137,7 +136,8 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-white leading-relaxed">
-                    123 Education Street, Knowledge City, State 560001
+                    Vinayak International School, Near Do Janti Balaji, Churu
+                    Road, Fatehpur, sikar, 332301
                   </p>
                 </div>
               </div>
