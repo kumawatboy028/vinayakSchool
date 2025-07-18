@@ -5,14 +5,6 @@ import { useEffect, useState } from "react";
 
 const messages = [
   {
-    role: `Principal's Message`,
-    message: `At Vinayak Education Group, we believe that true education inspires curiosity, builds character, and prepares students for life beyond academics. Our focus is to provide a nurturing environment where every child feels valued, challenged, and empowered to reach their full potential.`,
-    name: "Dr. Anant Sharma",
-    position: "Principal",
-    qualifications: "Ph.D., NET-MBA, M.Sc., M.Com., M.A., B.Ed. & CTET",
-    image: "/images/authorities/principal.jpeg",
-  },
-  {
     role: `Chairman's Message`,
     message: `Education is about learning for oneself and gaining the wisdom to live meaningfully. We strive to nurture each ${`child's`} unique potential through experiential learning, strong values, and holistic development.`,
     name: "Mr. Mahesh Kumar Sharma",
@@ -24,9 +16,17 @@ const messages = [
     role: `Managing Director's Message`,
     message: `At Vinayak International School, we are committed to fostering a culture of excellence and innovation. Our mission is to create a learning environment that encourages creativity, critical thinking, and lifelong learning.`,
     name: "Er. Rahul Sharma",
-    position: `Managing Direector`,
+    position: `Managing Director`,
     qualifications: "B.Tech. (CSE)",
     image: "/images/authorities/md.jpg",
+  },
+  {
+    role: `Principal's Message`,
+    message: `At Vinayak Education Group, we believe that true education inspires curiosity, builds character, and prepares students for life beyond academics. Our focus is to provide a nurturing environment where every child feels valued, challenged, and empowered to reach their full potential.`,
+    name: "Dr. Anant Sharma",
+    position: "Principal",
+    qualifications: "Ph.D., NET-MBA, M.Sc., M.Com., M.A., B.Ed. & CTET",
+    image: "/images/authorities/principal.jpeg",
   },
 ];
 
