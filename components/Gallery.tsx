@@ -96,8 +96,8 @@ const Gallery = () => {
               key={index}
               className={`w-3 h-3 rounded-full transition-all duration-300 ${
                 index === currentIndex
-                  ? "bg-[#17d0cfz]"
-                  : "bg-gray-300 hover:bg-gray-400"
+                  ? "bg-[#17d0cf]"
+                  : "bg-gray-300 hover:bg-[red]"
               }`}
               onClick={() => setCurrentIndex(index)}
             ></div>

@@ -21,12 +21,13 @@ const Footer = () => {
     { name: "Contact", href: "#contact" },
   ];
 
-  const academics = [
-    { name: "Pre-Primary", href: "#pre-primary" },
-    { name: "Primary School", href: "#primary" },
-    { name: "Middle School", href: "#middle" },
-    { name: "Secondary School", href: "#secondary" },
-    { name: "Admissions", href: "#admissions" },
+  const latestUpdates = [
+    { name: "News and Announcements", href: "/updates/news" },
+    { name: "Press and Media", href: "/updates/news" },
+    { name: "Our Gallery", href: "/updates/news" },
+    { name: "Video Gallery", href: "/updates/news" },
+    { name: "Morning Assembly", href: "/updates/news" },
+    { name: "Houses", href: "/updates/news" },
   ];
 
   const socialLinks = [
@@ -109,17 +110,17 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Academics */}
+          {/* Latest Updates */}
           <div>
-            <h4 className="text-lg font-semibold mb-6">Academics</h4>
+            <h4 className="text-lg font-semibold mb-6">Latest Updates</h4>
             <ul className="space-y-3">
-              {academics.map((academic) => (
-                <li key={academic.name}>
+              {latestUpdates.map((latestUpdate) => (
+                <li key={latestUpdate.name}>
                   <a
-                    href={academic.href}
+                    href={latestUpdate.href}
                     className="text-white hover:text-white transition-colors duration-200 hover:translate-x-1 inline-block"
                   >
-                    {academic.name}
+                    {latestUpdate.name}
                   </a>
                 </li>
               ))}
@@ -172,9 +173,6 @@ const Footer = () => {
             <div className="text-white text-sm">
               © 2025 Vinayak Education Group. All rights reserved.
             </div>
-            <div className="text-white text-sm">
-              Designed and developed by {"Sigma Fusion"}
-            </div>
 
             {/* Legal Links */}
             <div className="flex flex-wrap gap-6 text-sm">
@@ -191,6 +189,13 @@ const Footer = () => {
                   )}
                 </React.Fragment>
               ))}
+            </div>
+            <div className="text-white text-sm">
+              Designed and developed by{" "}
+              <a href="https://sigmafusion.in/" target="_blank">
+                {" "}
+                {"Sigma Fusion"}
+              </a>
             </div>
           </div>
         </div>

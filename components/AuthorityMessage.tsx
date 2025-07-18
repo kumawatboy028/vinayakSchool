@@ -10,15 +10,23 @@ const messages = [
     name: "Dr. Anant Sharma",
     position: "Principal",
     qualifications: "Ph.D., NET-MBA, M.Sc., M.Com., M.A., B.Ed. & CTET",
-    image: "/images/authorities/principal.jpg",
+    image: "/images/authorities/principal.jpeg",
   },
   {
     role: `Chairman's Message`,
-    message: `Education is about learning for oneself and gaining the wisdom to live meaningfully. We strive to nurture each child&#39;s unique potential through experiential learning, strong values, and holistic development.`,
+    message: `Education is about learning for oneself and gaining the wisdom to live meaningfully. We strive to nurture each ${`child's`} unique potential through experiential learning, strong values, and holistic development.`,
     name: "Mr. Mahesh Kumar Sharma",
     position: "Chairman",
     qualifications: "",
     image: "/images/authorities/chairman.jpg",
+  },
+  {
+    role: `Managing Director's Message`,
+    message: `At Vinayak International School, we are committed to fostering a culture of excellence and innovation. Our mission is to create a learning environment that encourages creativity, critical thinking, and lifelong learning.`,
+    name: "Er. Rahul Sharma",
+    position: `Managing Direector`,
+    qualifications: "B.Tech. (CSE)",
+    image: "/images/authorities/md.jpg",
   },
 ];
 
