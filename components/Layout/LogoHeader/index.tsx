@@ -19,17 +19,29 @@ const LogoHeader = () => {
         {/* Social Links */}
         <ul className="flex gap-4 text-sm text-gray-800 dark:text-gray-300">
           <li>
-            <Link href="/" className="hover:underline">
+            <Link
+              href="https://www.facebook.com/visftr#"
+              target="_blank"
+              className="hover:underline"
+            >
               Facebook
             </Link>
           </li>
           <li>
-            <Link href="/" className="hover:underline">
+            <Link
+              href="https://www.instagram.com/visftr/"
+              target="_blank"
+              className="hover:underline"
+            >
               Instagram
             </Link>
           </li>
           <li>
-            <Link href="/" className="hover:underline">
+            <Link
+              href="https://x.com/visftr"
+              className="hover:underline"
+              target="_blank"
+            >
               Twitter
             </Link>
           </li>

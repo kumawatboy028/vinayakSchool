@@ -13,6 +13,7 @@ const AboutUs = () => {
           fill
           className="object-cover object-center"
           priority
+          sizes="100vw"
         />
         {/* Overlay Text */}
         <div className="absolute inset-0 flex items-center justify-center bg-black/40">

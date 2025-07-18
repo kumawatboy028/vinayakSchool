@@ -27,13 +27,11 @@ const GetInTouch = () => {
   const handleSubmit = async () => {
     setIsSubmitting(true);
 
-    // Simulate form submission
     await new Promise((resolve) => setTimeout(resolve, 1500));
 
     setIsSubmitting(false);
     setIsSubmitted(true);
 
-    // Reset form after 3 seconds
     setTimeout(() => {
       setIsSubmitted(false);
       setFormData({
@@ -80,7 +78,6 @@ const GetInTouch = () => {
   return (
     <section className="w-full py-20 bg-gray-50 px-4">
       <div className="max-w-7xl mx-auto">
-        {/* Header */}
         <div className="text-center mb-16">
           <span className="inline-block bg-blue-100 text-blue-700 font-medium px-4 py-2 rounded-full text-sm mb-4">
             Contact Us
@@ -94,12 +91,9 @@ const GetInTouch = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-start">
-          {/* Contact Form */}
-          <div className="bg-white rounded-2xl shadow-xl p-8 relative overflow-hidden">
-            {/* Background decoration */}
+        <div className="grid lg:grid-cols-2 gap-12 items-stretch">
+          <div className="bg-white rounded-2xl shadow-xl p-8 relative overflow-hidden flex flex-col justify-between">
             <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-blue-100 to-purple-100 rounded-full -translate-y-16 translate-x-16 opacity-50"></div>
-
             <div className="relative z-10">
               <h3 className="text-2xl font-bold text-gray-900 mb-2">
                 Send us a Message
@@ -122,7 +116,6 @@ const GetInTouch = () => {
                 </div>
               ) : (
                 <div className="space-y-6">
-                  {/* Name Fields */}
                   <div className="grid md:grid-cols-2 gap-4">
                     <div>
                       <div className="block text-sm font-medium text-gray-700 mb-2">
@@ -152,7 +145,6 @@ const GetInTouch = () => {
                     </div>
                   </div>
 
-                  {/* Email */}
                   <div>
                     <div className="block text-sm font-medium text-gray-700 mb-2">
                       Email
@@ -167,7 +159,6 @@ const GetInTouch = () => {
                     />
                   </div>
 
-                  {/* Phone */}
                   <div>
                     <div className="block text-sm font-medium text-gray-700 mb-2">
                       Phone
@@ -182,7 +173,6 @@ const GetInTouch = () => {
                     />
                   </div>
 
-                  {/* Message */}
                   <div>
                     <div className="block text-sm font-medium text-gray-700 mb-2">
                       Message
@@ -197,7 +187,6 @@ const GetInTouch = () => {
                     />
                   </div>
 
-                  {/* Submit Button */}
                   <button
                     onClick={handleSubmit}
                     disabled={isSubmitting}
@@ -220,13 +209,11 @@ const GetInTouch = () => {
             </div>
           </div>
 
-          {/* Contact Information */}
-          <div className="space-y-6">
-            <div className="bg-white rounded-2xl shadow-xl p-8">
+          <div className="flex flex-col justify-between h-full gap-6">
+            <div className="bg-white rounded-2xl shadow-xl p-8 h-full">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">
                 Contact Information
               </h3>
-
               <div className="space-y-6">
                 {contactInfo.map((info, index) => {
                   const IconComponent = info.icon;
@@ -253,7 +240,6 @@ const GetInTouch = () => {
               </div>
             </div>
 
-            {/* Google Maps Integration */}
             <div className="bg-white rounded-2xl shadow-xl p-8">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Find Us</h3>
               <div className="rounded-lg overflow-hidden h-64 border border-gray-200">
