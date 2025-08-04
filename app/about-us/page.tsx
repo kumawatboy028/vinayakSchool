@@ -6,7 +6,7 @@ const AboutUs = () => {
   return (
     <section className="w-full">
       {/* Hero Image Section */}
-      <div className="relative w-full h-[500px]">
+      <div className="relative w-full h-[320px]">
         <Image
           src="/images/about-hero.jpg"
           alt="Students in Assembly"
@@ -26,7 +26,7 @@ const AboutUs = () => {
       </div>
 
       {/* About Content */}
-      <div className="bg-white text-gray-800 py-16 px-4 md:px-10 lg:px-32">
+      <div className="bg-white text-gray-800 py-8 px-4 md:px-10 lg:px-32">
         <div className="max-w-5xl mx-auto space-y-6 text-justify text-base md:text-lg leading-relaxed">
           <p>
             A child&apos;s mind is God&apos;s most wonderful creation and to
@@ -66,7 +66,7 @@ const AboutUs = () => {
       </div>
 
       {/* Mission Section */}
-      <div className="bg-gray-50 text-gray-800 py-16 px-4 md:px-10 lg:px-32">
+      <div className="bg-gray-50 text-gray-800 py-8 px-4 md:px-10 lg:px-32">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-bold mb-6">Mission</h2>
           <ul className="list-disc list-inside space-y-3 text-base md:text-lg text-justify leading-relaxed">
