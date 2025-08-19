@@ -33,15 +33,15 @@ const menuItems = [
       },
       { name: "Fee Structure", href: "/admission/fees-structure" },
       { name: "Transport Facilities", href: "/admission/transport-facilities" },
-      { name: "E-prospectus", href: "/admission/fee" },
-      { name: "School Uniform", href: "/admission/fee" },
-      { name: "School Timing", href: "/admission/fee" },
+      // { name: "E-prospectus", href: "/admission/fee" },
+      { name: "School Uniform", href: "/admission/school-uniform" },
+      { name: "School Timing", href: "/admission/school-timing" },
     ],
   },
   {
     name: "Academics",
     submenu: [
-      { name: "Affiliation", href: "/academics/curriculum" },
+      { name: "Affiliation", href: "/academics/affiliation" },
       { name: "Our Curriculum", href: "/academics/faculty" },
       { name: "Admission under RTE", href: "/academics/faculty" },
       { name: "Streams Offered", href: "/academics/faculty" },
@@ -58,16 +58,22 @@ const menuItems = [
   {
     name: "Facilities",
     submenu: [
-      { name: "Sports and Yoga", href: "/facilities/library" },
-      { name: "Science and Maths Lab", href: "/facilities/labs" },
-      { name: "Digital Workstation", href: "/facilities/labs" },
-      { name: "School Library", href: "/facilities/labs" },
-      { name: "Computer Lab", href: "/facilities/labs" },
-      { name: "Art and Craft", href: "/facilities/labs" },
-      { name: "Music and Dance", href: "/facilities/labs" },
-      { name: "Regular Health Check-ups", href: "/facilities/labs" },
-      { name: "24 Hours CCTV Survelliance", href: "/facilities/labs" },
-      { name: "Other Facilities", href: "/facilities/labs" },
+      { name: "Sports and Yoga", href: "/facilities/sports-and-yoga" },
+      {
+        name: "Science and Maths Lab",
+        href: "/facilities/science-and-maths-lab",
+      },
+      { name: "Digital Workstation", href: "/facilities/digital-workstation" },
+      { name: "School Library", href: "/facilities/school-library" },
+      { name: "Computer Lab", href: "/facilities/computer-lab" },
+      { name: "Art and Craft", href: "/facilities/art-and-craft" },
+      { name: "Music and Dance", href: "/facilities/music-and-dance" },
+      { name: "Regular Health Check-ups", href: "/facilities/health-checkups" },
+      {
+        name: "24 Hours CCTV Survelliance",
+        href: "/facilities/cctv-surveillance",
+      },
+      // { name: "Other Facilities", href: "/facilities/labs" },
     ],
   },
   {
@@ -108,7 +114,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[#fec375] text-gray-700 shadow relative z-50">
+    <nav className="bg-[#fec375] text-gray-800 shadow relative z-50">
       <div className="max-w-screen-xl mx-auto px-4 flex justify-between items-center py-3">
         {/* Hamburger for Mobile */}
         <div className="md:hidden">
@@ -128,7 +134,7 @@ const Navbar = () => {
             >
               <a
                 href={item.href || "#"}
-                className="transition-colors hover:text-[#e0dfd6] inline-block py-2"
+                className="transition-colors hover:text-[#fff] inline-block py-2"
               >
                 {item.name}
                 {item.submenu && <span className="ml-1">▼</span>}
