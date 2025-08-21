@@ -42,12 +42,14 @@ const menuItems = [
     name: "Academics",
     submenu: [
       { name: "Affiliation", href: "/academics/affiliation" },
-      { name: "Our Curriculum", href: "/academics/faculty" },
-      { name: "Admission under RTE", href: "/academics/faculty" },
-      { name: "Streams Offered", href: "/academics/faculty" },
-      { name: "Ranks and Honors", href: "/academics/faculty" },
-      { name: "Career Counselling", href: "/academics/faculty" },
-      { name: "Examination", href: "/academics/faculty" },
+      { name: "Our Curriculum", href: "/academics/curriculum" },
+      { name: "Admission under RTE", href: "/academics/rte" },
+      { name: "Streams Offered", href: "/academics/streams" },
+      { name: "Ranks and Honors", href: "/academics/ranks-and-honors" },
+      { name: "Career Counselling", href: "/academics/career-counselling" },
+      { name: "Examination", href: "/academics/examination" },
+      { name: "Morning Assembly", href: "/academics/morning-assembly" },
+      { name: "Houses", href: "/academics/houses" },
     ],
   },
   {
@@ -79,12 +81,13 @@ const menuItems = [
   {
     name: "Latest Updates",
     submenu: [
-      { name: "News and Announcements", href: "/updates/news" },
-      { name: "Press and Media", href: "/updates/news" },
-      { name: "Our Gallery", href: "/updates/news" },
-      { name: "Video Gallery", href: "/updates/news" },
-      { name: "Morning Assembly", href: "/updates/news" },
-      { name: "Houses", href: "/updates/news" },
+      {
+        name: "News and Announcements",
+        href: "/latest-updates/news-and-announcements",
+      },
+      { name: "Press and Media", href: "/latest-updates/press-and-media" },
+      { name: "Our Gallery", href: "/latest-updates/gallery" },
+      { name: "Video Gallery", href: "/latest-updates/video-gallery" },
     ],
   },
   {

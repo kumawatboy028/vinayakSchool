@@ -1,250 +1,123 @@
-"use client";
-
 import Image from "next/image";
 
-const RTE = () => {
+const RTEAdmission = () => {
   return (
-    <section className="w-full bg-white">
-      {/* Hero */}
-      <div className="relative w-full h-[320px]">
+    <div className="min-h-screen bg-gray-50">
+      {/* Hero Section */}
+      <div className="relative w-full h-[300px]">
         <Image
-          src="/images/uniform-hero.jpg"
-          alt="School Uniform Guidelines - Vinayak International School"
+          src="/images/rte.jpg"
+          alt="Admission Under RTE"
           fill
           className="object-cover object-center"
           priority
           sizes="100vw"
         />
-        <div className="absolute inset-0 flex items-center justify-center bg-black/40">
-          <div className="text-center text-white">
-            <h1 className="text-3xl md:text-5xl font-bold mt-2">
-              School Uniform (L.K.G to XII)
-            </h1>
-            <p className="mt-2 text-sm md:text-base opacity-90">
-              Regular & Winter Uniform • Session 2020–21
-            </p>
-          </div>
+        <div className="absolute inset-0 flex items-center justify-center bg-black/50">
+          <h1 className="text-4xl md:text-5xl font-bold text-white text-center">
+            Admission Under RTE
+          </h1>
         </div>
       </div>
 
-      {/* Regular Uniform */}
-      <div className="bg-white text-gray-800 py-10 px-4 md:px-10 lg:px-32">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">
-            Regular Uniform (Mon, Tue, Thu & Fri)
+      {/* Content Section */}
+      <section className="max-w-5xl mx-auto py-12 px-6 space-y-10">
+        {/* Introduction */}
+        <div className="bg-white rounded-2xl shadow-lg p-6">
+          <h2 className="text-2xl font-semibold text-amber-800 mb-4">
+            About RTE (Right to Education Act)
           </h2>
-
-          {/* Two-column cards for Girls/Boys */}
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-              <h3 className="text-xl font-bold mb-3 text-blue-800">
-                For Girls
-              </h3>
-              <ul className="list-disc list-inside space-y-2 text-gray-800">
-                <li>Sky Blue Shirt / Sky Blue Kurta</li>
-                <li>Blue Skirts / Blue Salwar / Blue Trouser</li>
-                <li>Blue Socks</li>
-                <li>Black plain leather shoes</li>
-              </ul>
-            </div>
-
-            <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-              <h3 className="text-xl font-bold mb-3 text-green-800">
-                For Boys
-              </h3>
-              <ul className="list-disc list-inside space-y-2 text-gray-800">
-                <li>Sky Blue Shirt</li>
-                <li>Blue Trouser</li>
-                <li>Black socks</li>
-                <li>Black plain leather shoes</li>
-              </ul>
-            </div>
-          </div>
-
-          {/* PT Days */}
-          <div className="mt-10">
-            <h3 className="text-xl md:text-2xl font-bold mb-4 text-center">
-              PT Days (Wed & Sat)
-            </h3>
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-                <h4 className="text-lg font-bold mb-3 text-purple-800">
-                  For Girls
-                </h4>
-                <ul className="list-disc list-inside space-y-2 text-gray-800">
-                  <li>T-Shirts & socks (Blue Colour)</li>
-                  <li>White Skirts / White Trouser</li>
-                  <li>White P.T. Shoes</li>
-                </ul>
-              </div>
-              <div className="bg-orange-50 p-6 rounded-lg border-l-4 border-orange-500">
-                <h4 className="text-lg font-bold mb-3 text-orange-800">
-                  For Boys
-                </h4>
-                <ul className="list-disc list-inside space-y-2 text-gray-800">
-                  <li>T-Shirts & socks (Blue Colour)</li>
-                  <li>White Trouser</li>
-                  <li>White P.T. Shoes</li>
-                </ul>
-              </div>
-            </div>
-          </div>
+          <p className="text-gray-700 leading-relaxed">
+            The Right to Education (RTE) Act, 2009 ensures free and compulsory
+            education for children belonging to economically weaker and
+            disadvantaged sections of society. Under this Act, private schools
+            are required to reserve a certain percentage of seats at the entry
+            level (Nursery/Grade I) for students eligible under RTE norms.
+          </p>
         </div>
-      </div>
 
-      {/* Winter Uniform */}
-      <div className="bg-gray-50 text-gray-800 py-10 px-4 md:px-10 lg:px-32">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">
-            Winter Uniform (All Students)
+        {/* Eligibility */}
+        <div className="bg-white rounded-2xl shadow-lg p-6">
+          <h2 className="text-2xl font-semibold text-amber-800 mb-4">
+            Eligibility Criteria
           </h2>
-
-          {/* Winter – Mon/Tue/Thu/Fri and Wed/Sat as cards */}
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-bold mb-3 text-blue-700">
-                Mon, Tue, Thu & Fri
-              </h3>
-              <ul className="list-disc list-inside space-y-2">
-                <li>Blue With White Line Pullover</li>
-                <li>Blue Warm Cap</li>
-              </ul>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-bold mb-3 text-blue-700">
-                Wed & Sat
-              </h3>
-              <ul className="list-disc list-inside space-y-2">
-                <li>Blue Blazer</li>
-                <li>Blue Warm Cap</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Important Notes */}
-      <div className="bg-yellow-50 border-l-4 border-yellow-400 py-8 px-4 md:px-10 lg:px-32">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4 text-yellow-800">
-            Important
-          </h2>
-          <ul className="list-disc list-inside space-y-2 text-yellow-800">
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li>Children belonging to economically weaker sections (EWS).</li>
             <li>
-              School belt is compulsory for all students in summer and winter.
+              Children from disadvantaged groups (Scheduled Castes, Scheduled
+              Tribes, OBCs, minorities, etc.).
             </li>
+            <li>Age: 3 to 6 years (for Nursery/Entry Level Admission).</li>
             <li>
-              School tie is compulsory for boys on all days in summer and winter
-              except on Wednesday & Saturday.
-            </li>
-            <li>
-              For girls, school tie is compulsory with Shirt & Skirts / Trouser.
+              Residence proof within the defined neighborhood/locality of the
+              school.
             </li>
           </ul>
         </div>
-      </div>
 
-      {/* Compact Tables (responsive) */}
-      <div className="bg-white text-gray-800 py-10 px-4 md:px-10 lg:px-32">
-        <div className="max-w-5xl mx-auto space-y-8">
-          <h2 className="text-2xl md:text-3xl font-bold text-center">
-            Quick Reference Tables
+        {/* Documents Required */}
+        <div className="bg-white rounded-2xl shadow-lg p-6">
+          <h2 className="text-2xl font-semibold text-amber-800 mb-4">
+            Documents Required
           </h2>
-
-          {/* Regular Days Table */}
-          <div>
-            <h3 className="text-xl font-bold mb-3">
-              Regular Days (Mon, Tue, Thu & Fri)
-            </h3>
-            <div className="overflow-x-auto rounded-lg border border-gray-200">
-              <table className="w-full text-left table-auto">
-                <thead className="bg-gray-100 sticky top-0">
-                  <tr>
-                    <th className="p-3 border-b">Category</th>
-                    <th className="p-3 border-b">Items</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y">
-                  <tr className="hover:bg-gray-50">
-                    <td className="p-3 font-semibold">Girls</td>
-                    <td className="p-3">
-                      Sky Blue Shirt / Sky Blue Kurta; Blue Skirts / Blue Salwar
-                      / Blue Trouser; Blue Socks; Black plain leather shoes
-                    </td>
-                  </tr>
-                  <tr className="hover:bg-gray-50">
-                    <td className="p-3 font-semibold">Boys</td>
-                    <td className="p-3">
-                      Sky Blue Shirt; Blue Trouser; Black socks; Black plain
-                      leather shoes
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-
-          {/* PT Days Table */}
-          <div>
-            <h3 className="text-xl font-bold mb-3">PT Days (Wed & Sat)</h3>
-            <div className="overflow-x-auto rounded-lg border border-gray-200">
-              <table className="w-full text-left table-auto">
-                <thead className="bg-gray-100 sticky top-0">
-                  <tr>
-                    <th className="p-3 border-b">Category</th>
-                    <th className="p-3 border-b">Items</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y">
-                  <tr className="hover:bg-gray-50">
-                    <td className="p-3 font-semibold">Girls</td>
-                    <td className="p-3">
-                      T-Shirts & socks (Blue Colour); White Skirts / White
-                      Trouser; White P.T. Shoes
-                    </td>
-                  </tr>
-                  <tr className="hover:bg-gray-50">
-                    <td className="p-3 font-semibold">Boys</td>
-                    <td className="p-3">
-                      T-Shirts & socks (Blue Colour); White Trouser; White P.T.
-                      Shoes
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-
-          {/* Winter Table */}
-          <div>
-            <h3 className="text-xl font-bold mb-3">Winter (All Students)</h3>
-            <div className="overflow-x-auto rounded-lg border border-gray-200">
-              <table className="w-full text-left table-auto">
-                <thead className="bg-gray-100 sticky top-0">
-                  <tr>
-                    <th className="p-3 border-b">Days</th>
-                    <th className="p-3 border-b">Items</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y">
-                  <tr className="hover:bg-gray-50">
-                    <td className="p-3 font-semibold">Mon, Tue, Thu & Fri</td>
-                    <td className="p-3">
-                      Blue With White Line Pullover; Blue Warm Cap
-                    </td>
-                  </tr>
-                  <tr className="hover:bg-gray-50">
-                    <td className="p-3 font-semibold">Wed & Sat</td>
-                    <td className="p-3">Blue Blazer; Blue Warm Cap</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>{" "}
-          </div>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li>Birth Certificate of the child</li>
+            <li>Aadhaar Card of the child & parents</li>
+            <li>
+              Residence Proof (Ration Card / Electricity Bill / Rental
+              Agreement)
+            </li>
+            <li>Caste Certificate (if applicable)</li>
+            <li>Income Certificate of parents</li>
+            <li>Passport size photographs of child & parents</li>
+          </ul>
         </div>
-      </div>
-    </section>
+
+        {/* Application Process */}
+        <div className="bg-white rounded-2xl shadow-lg p-6">
+          <h2 className="text-2xl font-semibold text-amber-800 mb-4">
+            Application Process
+          </h2>
+          <ol className="list-decimal pl-6 space-y-2 text-gray-700">
+            <li>
+              Parents must register on the official{" "}
+              <a
+                href="https://rte.raj.nic.in" // Change link if for another state
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-amber-700 underline"
+              >
+                State RTE Portal
+              </a>{" "}
+              within the admission timeline.
+            </li>
+            <li>Fill in the application form with correct details.</li>
+            <li>Upload necessary documents as per the requirements.</li>
+            <li>Submit the application and note the application number.</li>
+            <li>
+              Shortlisted candidates will be informed by the school/through the
+              portal.
+            </li>
+          </ol>
+        </div>
+
+        {/* Contact Section */}
+        <div className="bg-white rounded-2xl shadow-lg p-6">
+          <h2 className="text-2xl font-semibold text-amber-800 mb-4">
+            Need Assistance?
+          </h2>
+          <p className="text-gray-700 leading-relaxed">
+            For any queries regarding RTE admission, parents can contact the
+            school office during working hours or reach us at:
+          </p>
+          <p className="text-gray-800 font-medium mt-2">
+            📞 Phone: +91-9829748121 <br />
+            📧 Email: visftr@gmail.com
+          </p>
+        </div>
+      </section>
+    </div>
   );
 };
 
-export default RTE;
+export default RTEAdmission;
