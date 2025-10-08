@@ -18,7 +18,7 @@ const messages = [
     name: "Er. Rahul Sharma",
     position: `Managing Director`,
     qualifications: "B.Tech. (CSE)",
-    image: "/images/authorities/md.jpg",
+    image: "/images/authorities/director.png",
   },
   {
     role: `Principal's Message`,
