@@ -102,7 +102,7 @@ const AdmissionProcedure = () => {
           </h2>
 
           <div className="grid gap-4">
-            <div className="bg-white p-4 rounded-lg shadow-md flex items-start">
+            <div className="bg-white p-4 rounded-lg shadow-md flex items-center">
               <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-4 flex-shrink-0 mt-1">
                 <span className="text-sm font-bold text-blue-600">1</span>
               </div>
@@ -112,7 +112,7 @@ const AdmissionProcedure = () => {
               </p>
             </div>
 
-            <div className="bg-white p-4 rounded-lg shadow-md flex items-start">
+            <div className="bg-white p-4 rounded-lg shadow-md flex items-center">
               <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-4 flex-shrink-0 mt-1">
                 <span className="text-sm font-bold text-blue-600">2</span>
               </div>
@@ -121,7 +121,7 @@ const AdmissionProcedure = () => {
               </p>
             </div>
 
-            <div className="bg-white p-4 rounded-lg shadow-md flex items-start">
+            <div className="bg-white p-4 rounded-lg shadow-md flex items-center">
               <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-4 flex-shrink-0 mt-1">
                 <span className="text-sm font-bold text-blue-600">3</span>
               </div>
@@ -130,7 +130,7 @@ const AdmissionProcedure = () => {
               </p>
             </div>
 
-            <div className="bg-white p-4 rounded-lg shadow-md flex items-start">
+            <div className="bg-white p-4 rounded-lg shadow-md flex items-center">
               <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-4 flex-shrink-0 mt-1">
                 <span className="text-sm font-bold text-blue-600">4</span>
               </div>
@@ -139,7 +139,7 @@ const AdmissionProcedure = () => {
               </p>
             </div>
 
-            <div className="bg-white p-4 rounded-lg shadow-md flex items-start">
+            <div className="bg-white p-4 rounded-lg shadow-md flex items-center">
               <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-4 flex-shrink-0 mt-1">
                 <span className="text-sm font-bold text-blue-600">5</span>
               </div>
@@ -148,7 +148,7 @@ const AdmissionProcedure = () => {
               </p>
             </div>
 
-            <div className="bg-white p-4 rounded-lg shadow-md flex items-start">
+            <div className="bg-white p-4 rounded-lg shadow-md flex items-center">
               <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-4 flex-shrink-0 mt-1">
                 <span className="text-sm font-bold text-blue-600">6</span>
               </div>
@@ -160,7 +160,7 @@ const AdmissionProcedure = () => {
               </p>
             </div>
 
-            <div className="bg-white p-4 rounded-lg shadow-md flex items-start">
+            <div className="bg-white p-4 rounded-lg shadow-md flex items-center">
               <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-4 flex-shrink-0 mt-1">
                 <span className="text-sm font-bold text-blue-600">7</span>
               </div>
@@ -171,7 +171,7 @@ const AdmissionProcedure = () => {
               </p>
             </div>
 
-            <div className="bg-white p-4 rounded-lg shadow-md flex items-start">
+            <div className="bg-white p-4 rounded-lg shadow-md flex items-center">
               <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-4 flex-shrink-0 mt-1">
                 <span className="text-sm font-bold text-blue-600">8</span>
               </div>
@@ -181,7 +181,7 @@ const AdmissionProcedure = () => {
               </p>
             </div>
 
-            <div className="bg-white p-4 rounded-lg shadow-md flex items-start">
+            <div className="bg-white p-4 rounded-lg shadow-md flex items-center">
               <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center mr-4 flex-shrink-0 mt-1">
                 <span className="text-sm font-bold text-blue-600">9</span>
               </div>
