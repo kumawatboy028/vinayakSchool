@@ -7,19 +7,20 @@ const SchoolFees = () => {
     <section className="w-full bg-white">
       <div className="relative w-full h-[320px]">
         <Image
-          src="/images/fees-hero.jpg"
+          src="/images/heroBanner/fee-structure.png"
           alt="School Fees - Vinayak International School"
           fill
           className="object-cover object-center"
           priority
           sizes="100vw"
+          objectFit="revert"
         />
         {/* Overlay Text */}
-        <div className="absolute inset-0 flex items-center justify-center bg-black/40">
+        {/* <div className="absolute inset-0 flex items-center justify-center bg-black/40">
           <div className="text-center text-white">
             <h1 className="text-3xl md:text-5xl font-bold mt-2">School Fees</h1>
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* Fee Payment Schedule */}

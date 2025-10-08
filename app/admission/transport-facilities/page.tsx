@@ -7,7 +7,7 @@ const TransportFacilities = () => {
     <section className="w-full bg-white">
       <div className="relative w-full h-[320px]">
         <Image
-          src="/images/transport-hero.jpg"
+          src="/images/heroBanner/transport.jpeg"
           alt="Transport Facilities - Vinayak International School"
           fill
           className="object-cover object-center"
@@ -15,7 +15,7 @@ const TransportFacilities = () => {
           sizes="100vw"
         />
         {/* Overlay Text */}
-        <div className="absolute inset-0 flex items-center justify-center bg-black/40">
+        <div className="absolute inset-0 flex items-center justify-center bg-black/60">
           <div className="text-center text-white">
             <h1 className="text-3xl md:text-5xl font-bold mt-2">
               Transport Facilities

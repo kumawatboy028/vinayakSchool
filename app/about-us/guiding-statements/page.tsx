@@ -8,12 +8,13 @@ const GuidingStatements = () => {
       {/* Hero Image Section */}
       <div className="relative w-full h-[320px]">
         <Image
-          src="/images/guidance-hero.jpg" // Replace with your guidance page image
+          src="/images/heroBanner/schoolOverview.jpg"
           alt="Guidance and Counselling"
           fill
           className="object-cover object-center"
           priority
           sizes="100vw"
+          objectFit="revert"
         />
         {/* Overlay Text */}
         <div className="absolute inset-0 flex items-center justify-center bg-black/40">

@@ -12,6 +12,10 @@ const menuItems = [
       { name: "Guiding Statements", href: "/about-us/guiding-statements" },
       { name: "Chairman's Message", href: "/about-us/chairman-message" },
       {
+        name: "Director's Message",
+        href: "/about-us/director-message",
+      },
+      {
         name: "From the Desk Of Principal",
         href: "/about-us/principal-message",
       },

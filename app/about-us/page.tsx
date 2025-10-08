@@ -8,7 +8,7 @@ const AboutUs = () => {
       {/* Hero Image Section */}
       <div className="relative w-full h-[320px]">
         <Image
-          src="/images/about-hero.jpg"
+          src="/images/heroBanner/assembly.jpeg"
           alt="Students in Assembly"
           fill
           className="object-cover object-center"
