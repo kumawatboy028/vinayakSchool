@@ -15,7 +15,7 @@ const facilities = [
       "Interactive digital boards and modern teaching aids for enhanced learning experience.",
     icon: <FaDesktop className="text-blue-600 text-2xl" />,
     bg: "bg-blue-100",
-    image: "/images/facilities/smart-classroom.jpg",
+    image: "/images/facilities/smartclass.jpg",
   },
   {
     title: "Sports Complex",
@@ -23,7 +23,7 @@ const facilities = [
       "Multi-sport playground with basketball, volleyball, and cricket facilities.",
     icon: <FaGamepad className="text-green-600 text-2xl" />,
     bg: "bg-green-100",
-    image: "/images/facilities/sports-complex.jpg",
+    image: "/images/facilities/sports_complex.jpg",
   },
   {
     title: "Safe Transport",
@@ -31,7 +31,7 @@ const facilities = [
       "GPS-enabled buses with trained drivers ensuring safe commute for students.",
     icon: <FaBus className="text-purple-600 text-2xl" />,
     bg: "bg-purple-100",
-    image: "/images/facilities/safe-transport.jpg",
+    image: "/images/facilities/transport.jpeg",
   },
   {
     title: "Modern Library",
@@ -39,7 +39,7 @@ const facilities = [
       "Extensive collection of books, digital resources, and quiet study spaces.",
     icon: <FaBook className="text-orange-600 text-2xl" />,
     bg: "bg-purple-100",
-    image: "/images/facilities/safe-transport.jpg",
+    image: "/images/facilities/library.jpeg",
   },
   {
     title: "Science Lab",
@@ -47,7 +47,7 @@ const facilities = [
       "Well-equipped physics, chemistry, and biology labs for hands-on learning.",
     icon: <FaMicroscope className="text-red-600 text-2xl" />,
     bg: "bg-purple-100",
-    image: "/images/facilities/safe-transport.jpg",
+    image: "/images/facilities/science_lab.jpeg",
   },
   {
     title: "Computer Lab",
@@ -55,7 +55,7 @@ const facilities = [
       "Latest computers with high-speed internet for digital literacy programs.",
     icon: <FaTv className="text-teal-600 text-2xl" />,
     bg: "bg-purple-100",
-    image: "/images/facilities/safe-transport.jpg",
+    image: "/images/facilities/computer_lab.jpg",
   },
 ];
 

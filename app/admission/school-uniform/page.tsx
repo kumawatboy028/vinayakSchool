@@ -6,9 +6,9 @@ const SchoolUniform = () => {
   return (
     <section className="w-full bg-white">
       {/* Hero */}
-      <div className="relative w-full h-[320px]">
+      <div className="relative w-full h-[350px]">
         <Image
-          src="/images/heroBanner/assembly.jpeg"
+          src="/images/banners/morning_assembly.jpg"
           alt="School Uniform Guidelines - Vinayak International School"
           fill
           className="object-cover object-center"
@@ -21,7 +21,7 @@ const SchoolUniform = () => {
               School Uniform (L.K.G to XII)
             </h1>
             <p className="mt-2 text-sm md:text-base opacity-90">
-              Regular & Winter Uniform • Session 2020–21
+              Regular & Winter Uniform
             </p>
           </div>
         </div>

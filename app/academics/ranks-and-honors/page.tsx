@@ -37,18 +37,18 @@ const RanksHonors = () => {
       {/* Hero Section */}
       <div className="relative w-full h-[300px]">
         <Image
-          src="/images/honors-hero.jpg"
+          src="/images/heroBanner/ranks-and-honors.png"
           alt="Ranks and Honors"
           fill
           className="object-cover object-center"
           priority
           sizes="100vw"
         />
-        <div className="absolute inset-0 flex items-center justify-center bg-black/50">
+        {/* <div className="absolute inset-0 flex items-center justify-center bg-black/50">
           <h1 className="text-4xl md:text-5xl font-bold text-white">
             Ranks & Honors
           </h1>
-        </div>
+        </div> */}
       </div>
 
       {/* Honors Section */}

@@ -7,34 +7,27 @@ const MusicDance = () => {
       {/* Header */}
       <div className="relative w-full h-[320px]">
         <Image
-          src="/images/music-dance-hero.jpg"
+          src="/images/heroBanner/music-and-dance.png"
           alt="Music & Dance - Vinayak International School"
           fill
           className="object-cover object-center"
           priority
           sizes="100vw"
         />
-        <div className="absolute inset-0 flex items-center justify-center bg-black/40">
-          <div className="text-center text-white">
-            <h1 className="text-3xl md:text-5xl font-bold mt-2">
-              Music & Dance
-            </h1>
-          </div>
-        </div>
       </div>
 
-      {/* Intro Message */}
-      <div className="bg-white text-gray-800 py-8 px-4 md:px-10 lg:px-32">
+      {/* Intro */}
+      <div className="bg-white text-gray-800 py-10 px-4 md:px-10 lg:px-32">
         <div className="max-w-5xl mx-auto space-y-6 text-justify text-base md:text-lg leading-relaxed">
           <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">
             Nurturing Creativity Through Music & Dance
           </h2>
 
           <p>
-            At <strong>Vinayak International School</strong>, we believe that{" "}
-            <b>arts are the soul of education</b>. Music and dance play an
-            essential role in fostering creativity, rhythm, confidence, and
-            cultural appreciation among students.
+            At <strong>Vinayak International School</strong>, we believe that
+            <b> arts are the soul of education</b>. Music and dance help
+            students build creativity, rhythm, cultural understanding, and
+            confidence.
           </p>
         </div>
       </div>
@@ -42,40 +35,51 @@ const MusicDance = () => {
       {/* Music Section */}
       <section className="py-14 bg-white">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-purple-600 mb-6">🎵 Music</h2>
-          <p className="text-lg mb-8 leading-relaxed">
-            Our music classes provide students the opportunity to learn both
-            vocal and instrumental music. With exposure to classical, folk, and
-            contemporary music, students not only develop talent but also
-            discipline, patience, and a love for art.
+          <h2 className="text-3xl font-bold text-purple-700 mb-10">Music</h2>
+
+          <p className="text-lg mb-10 leading-relaxed">
+            Our music program gives students the opportunity to learn both vocal
+            and instrumental music. Exposure to classical, folk, and modern
+            music helps them develop discipline, patience, and a deep passion
+            for the art.
           </p>
 
-          {/* Music Images */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            <div className="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition-transform">
-              <Image
-                src="/images/music1.jpg"
-                alt="Students learning instruments"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <div className="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition-transform">
-              <Image
-                src="/images/music2.jpg"
-                alt="Choir performance"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <div className="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition-transform">
-              <Image
-                src="/images/music3.jpg"
-                alt="Student playing guitar"
-                fill
-                className="object-cover"
-              />
-            </div>
+          {/* Music Cards */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+            {[
+              {
+                title: "Vocal Training",
+                desc: "Students learn pitch, rhythm, and voice modulation through regular practice.",
+              },
+              {
+                title: "Instrumental Learning",
+                desc: "From harmonium and tabla to guitar, students explore a range of instruments.",
+              },
+              {
+                title: "Classical & Folk Music",
+                desc: "Focus on Indian classical and regional folk to connect with cultural heritage.",
+              },
+              {
+                title: "Musical Theory",
+                desc: "Understanding music fundamentals like notes, scales, and composition.",
+              },
+              {
+                title: "Group Performances",
+                desc: "Regular choir and group singing activities build confidence and teamwork.",
+              },
+              {
+                title: "Stage Exposure",
+                desc: "Students showcase their musical talents in events and celebrations.",
+              },
+            ].map((item, index) => (
+              <div
+                key={index}
+                className="bg-gray-100 p-6 rounded-2xl shadow-md hover:shadow-xl transition-all"
+              >
+                <h3 className="text-xl font-semibold mb-3">{item.title}</h3>
+                <p className="text-gray-600">{item.desc}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -83,40 +87,50 @@ const MusicDance = () => {
       {/* Dance Section */}
       <section className="py-14 bg-gray-100">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-pink-600 mb-6">💃 Dance</h2>
-          <p className="text-lg mb-8 leading-relaxed">
-            Dance brings joy, energy, and cultural expression to our students.
-            From classical and folk dances to western styles, our school
-            provides a platform where every student can showcase their talent
-            and gain confidence through stage performances and competitions.
+          <h2 className="text-3xl font-bold text-pink-700 mb-10">Dance</h2>
+
+          <p className="text-lg mb-10 leading-relaxed">
+            Dance helps students express themselves with confidence and energy.
+            With training in classical, folk, and western dance styles, students
+            learn discipline, flexibility, rhythm, and stage presence.
           </p>
 
-          {/* Dance Images */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            <div className="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition-transform">
-              <Image
-                src="/images/dance1.jpg"
-                alt="Students performing classical dance"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <div className="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition-transform">
-              <Image
-                src="/images/dance2.jpg"
-                alt="Group dance performance"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <div className="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition-transform">
-              <Image
-                src="/images/dance3.jpg"
-                alt="Students practicing dance"
-                fill
-                className="object-cover"
-              />
-            </div>
+          {/* Dance Cards */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+            {[
+              {
+                title: "Classical Dance",
+                desc: "Training in traditional Indian classical forms like Bharatanatyam and Kathak.",
+              },
+              {
+                title: "Folk Dance",
+                desc: "Students learn vibrant folk styles that reflect India's cultural diversity.",
+              },
+              {
+                title: "Western Dance",
+                desc: "Exposure to freestyle, hip-hop, and contemporary dance.",
+              },
+              {
+                title: "Rhythm & Coordination",
+                desc: "Activities aimed at improving balance, timing, and coordination.",
+              },
+              {
+                title: "Choreography Lessons",
+                desc: "Students learn how to create and perform their own dance sequences.",
+              },
+              {
+                title: "Stage & Competitions",
+                desc: "Performance opportunities to build confidence and showcase talent.",
+              },
+            ].map((item, index) => (
+              <div
+                key={index}
+                className="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition-all"
+              >
+                <h3 className="text-xl font-semibold mb-3">{item.title}</h3>
+                <p className="text-gray-600">{item.desc}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>

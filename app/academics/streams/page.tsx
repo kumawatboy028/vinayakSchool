@@ -6,21 +6,21 @@ const streamsData = [
     title: "Science Stream",
     description:
       "The Science stream at Vinayak International School prepares students for careers in Engineering, Medicine, Research, and Technology. We offer Physics, Chemistry, Mathematics, and Biology with modern labs and expert faculty.",
-    image: "/images/stream-science.jpg",
+    image: "/images/facilities/science_stream.webp",
   },
   {
     id: 2,
     title: "Commerce Stream",
     description:
       "The Commerce stream helps students build strong foundations in Business, Accountancy, and Economics. It opens career opportunities in Management, Finance, Banking, and Entrepreneurship.",
-    image: "/images/stream-commerce.jpg",
+    image: "/images/facilities/commerce_stream.png",
   },
   {
     id: 3,
     title: "Arts & Humanities Stream",
     description:
       "The Arts & Humanities stream nurtures creativity and analytical thinking. Subjects include History, Political Science, Geography, Sociology, and Psychology, preparing students for diverse professional fields.",
-    image: "/images/stream-arts.jpg",
+    image: "/images/facilities/arts_and_humanities.jpg",
   },
 ];
 
@@ -28,20 +28,20 @@ const StreamsOffered = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="relative w-full h-[300px]">
+      <div className="relative w-full h-[350px]">
         <Image
-          src="/images/streams-hero.jpg"
+          src="/images/heroBanner/streams-offered.png"
           alt="Streams Offered"
           fill
           className="object-cover object-center"
           priority
           sizes="100vw"
         />
-        <div className="absolute inset-0 flex items-center justify-center bg-black/50">
+        {/* <div className="absolute inset-0 flex items-center justify-center bg-black/50">
           <h1 className="text-4xl md:text-5xl font-bold text-white">
             Streams Offered
           </h1>
-        </div>
+        </div> */}
       </div>
 
       {/* Streams Section */}

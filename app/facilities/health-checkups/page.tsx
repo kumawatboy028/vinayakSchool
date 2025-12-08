@@ -4,83 +4,81 @@ import Image from "next/image";
 const HealthCheckups = () => {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-800">
-      {/* Header */}
+      {/* Header Banner */}
       <div className="relative w-full h-[320px]">
         <Image
-          src="/images/health-hero.jpg"
+          src="/images/heroBanner/health-checkups.png"
           alt="Regular Health Checkups - Vinayak International School"
           fill
           className="object-cover object-center"
           priority
           sizes="100vw"
         />
-        <div className="absolute inset-0 flex items-center justify-center bg-black/40">
-          <div className="text-center text-white">
-            <h1 className="text-3xl md:text-5xl font-bold mt-2">
-              Regular Health Checkups
-            </h1>
-          </div>
-        </div>
       </div>
 
       {/* Intro Section */}
-      <div className="bg-white text-gray-800 py-8 px-4 md:px-10 lg:px-32">
-        <div className="max-w-5xl mx-auto space-y-6 text-justify text-base md:text-lg leading-relaxed">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">
+      <div className="bg-white text-gray-800 py-10 px-6 md:px-12">
+        <div className="max-w-5xl mx-auto space-y-6 text-base md:text-lg leading-relaxed">
+          <h2 className="text-3xl font-bold text-center">
             Prioritizing Student Well-being
           </h2>
-          <p>
-            At <strong>Vinayak International School</strong>, we ensure that{" "}
-            <b>every {`student’s`} health is regularly monitored</b> through
-            planned medical checkups. Our commitment to well-being ensures that
-            children grow in a safe, healthy, and nurturing environment.
+          <p className="text-justify">
+            At <strong>Vinayak International School</strong>, we ensure that
+            <b> every student’s health is regularly monitored</b> through
+            organized medical checkups. Our commitment to well-being helps
+            children grow in a safe, healthy, and supportive environment.
           </p>
         </div>
       </div>
 
-      {/* Health Checkup Section */}
+      {/* Health Checkup - Cards Section */}
       <section className="py-14 bg-white">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-red-600 mb-6">
-            🩺 Comprehensive Health Camps
+          <h2 className="text-3xl font-bold mb-8 text-gray-800">
+            Comprehensive Health Camps
           </h2>
-          <p className="text-lg mb-8 leading-relaxed">
-            Regular health checkups are organized by qualified doctors and
-            healthcare professionals. These include{" "}
-            <b>
-              general physical examinations, dental checkups, eye tests, and
-              growth monitoring
-            </b>
-            . Parents are informed about their {`child’s`} health status, and
-            necessary advice is provided for further care if required.
+          <p className="text-lg mb-10 leading-relaxed">
+            Regular health checkups are conducted by qualified doctors and
+            medical professionals. These include a variety of essential health
+            assessments to ensure the well-being of every child.
           </p>
 
-          {/* Health Images */}
+          {/* Card Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            <div className="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition-transform">
-              <Image
-                src="/images/health1.jpg"
-                alt="Doctor examining students"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <div className="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition-transform">
-              <Image
-                src="/images/health2.jpg"
-                alt="Students dental checkup"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <div className="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition-transform">
-              <Image
-                src="/images/health3.jpg"
-                alt="Eye checkup camp"
-                fill
-                className="object-cover"
-              />
-            </div>
+            {[
+              {
+                title: "General Physical Examination",
+                desc: "Routine checkups to examine height, weight, posture, and overall fitness.",
+              },
+              {
+                title: "Dental Checkups",
+                desc: "Regular oral health assessments to ensure clean and healthy teeth.",
+              },
+              {
+                title: "Eye & Vision Tests",
+                desc: "Professional eye screening to detect early signs of vision issues.",
+              },
+              {
+                title: "Growth Monitoring",
+                desc: "Tracking student growth patterns with proper medical evaluation.",
+              },
+              {
+                title: "Health Reports for Parents",
+                desc: "Parents receive updates and advice based on their child's medical condition.",
+              },
+              {
+                title: "Follow-up Guidance",
+                desc: "Suggestions provided for further medical care whenever required.",
+              },
+            ].map((card, index) => (
+              <div
+                key={index}
+                className="bg-gray-100 shadow-md rounded-2xl p-6 hover:shadow-xl transition-all duration-300"
+              >
+                <h3 className="text-xl font-semibold mb-3">{card.title}</h3>
+                <p className="text-gray-700">{card.desc}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -88,45 +86,39 @@ const HealthCheckups = () => {
       {/* Preventive Care Section */}
       <section className="py-14 bg-gray-100">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-green-600 mb-6">
-            🌿 Preventive Healthcare Awareness
+          <h2 className="text-3xl font-bold text-gray-800 mb-8">
+            Preventive Healthcare Awareness
           </h2>
-          <p className="text-lg mb-8 leading-relaxed">
-            In addition to regular checkups, our school conducts{" "}
-            <b>
-              health awareness programs, vaccination drives, and nutrition
-              workshops
-            </b>{" "}
-            to help students understand the importance of preventive care and
-            healthy living.
+          <p className="text-lg mb-10 leading-relaxed">
+            Our school regularly arranges awareness programs to help students
+            understand the importance of a healthy lifestyle and preventive
+            care.
           </p>
 
-          {/* Awareness Images */}
+          {/* Awareness Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            <div className="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition-transform">
-              <Image
-                src="/images/awareness1.jpg"
-                alt="Health awareness session"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <div className="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition-transform">
-              <Image
-                src="/images/awareness2.jpg"
-                alt="Nutrition awareness program"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <div className="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition-transform">
-              <Image
-                src="/images/awareness3.jpg"
-                alt="Vaccination drive"
-                fill
-                className="object-cover"
-              />
-            </div>
+            {[
+              {
+                title: "Health Awareness Sessions",
+                desc: "Interactive sessions on hygiene, first-aid, and everyday health practices.",
+              },
+              {
+                title: "Nutrition Workshops",
+                desc: "Guidance on eating habits, balanced diet, and healthy food choices.",
+              },
+              {
+                title: "Vaccination Drives",
+                desc: "Coordination with health departments for timely vaccinations.",
+              },
+            ].map((card, index) => (
+              <div
+                key={index}
+                className="bg-white shadow-md rounded-2xl p-6 hover:shadow-xl transition-all duration-300"
+              >
+                <h3 className="text-xl font-semibold mb-3">{card.title}</h3>
+                <p className="text-gray-700">{card.desc}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>

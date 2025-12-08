@@ -8,14 +8,14 @@ const SchoolAffiliationDetails = () => {
       {/* Hero */}
       <div className="relative w-full h-[320px]">
         <Image
-          src="/images/school-hero.jpg"
+          src="/images/heroBanner/affiliation-details.png"
           alt="School Affiliation Details - Vinayak International School"
           fill
           className="object-cover object-center"
           priority
           sizes="100vw"
         />
-        <div className="absolute inset-0 flex items-center justify-center bg-black/40">
+        {/* <div className="absolute inset-0 flex items-center justify-center bg-black/40">
           <div className="text-center text-white px-4">
             <h1 className="text-3xl md:text-5xl font-bold">
               Affiliation Details
@@ -24,7 +24,7 @@ const SchoolAffiliationDetails = () => {
               Central Board of Secondary Education (CBSE)
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* Introduction */}

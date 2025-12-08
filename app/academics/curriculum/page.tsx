@@ -63,18 +63,18 @@ const Curriculum = () => {
       {/* Hero Section */}
       <div className="relative w-full h-[300px]">
         <Image
-          src="/images/curriculum.jpg"
+          src="/images/heroBanner/our-curriculum.png"
           alt="Our Curriculum"
           fill
           className="object-cover object-center"
           priority
           sizes="100vw"
         />
-        <div className="absolute inset-0 flex items-center justify-center bg-black/50">
+        {/* <div className="absolute inset-0 flex items-center justify-center bg-black/50">
           <h1 className="text-4xl md:text-5xl font-bold text-white text-center">
             Our Curriculum
           </h1>
-        </div>
+        </div> */}
       </div>
 
       {/* Curriculum Sections */}

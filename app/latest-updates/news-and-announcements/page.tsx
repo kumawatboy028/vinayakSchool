@@ -5,26 +5,10 @@ const newsData = [
   {
     id: 1,
     title: "Annual Sports Day Celebration",
-    date: "March 10, 2025",
+    date: "November 25, 2025",
     description:
-      "Vinayak International School proudly hosted its Annual Sports Day with great enthusiasm. Students participated in athletics, football, cricket, and cultural performances.",
-    image: "/images/news-sports.jpg",
-  },
-  {
-    id: 2,
-    title: "Science Exhibition 2025",
-    date: "February 20, 2025",
-    description:
-      "Our budding scientists showcased their creativity and innovation in the Annual Science Exhibition. Parents and guests appreciated the projects presented by the students.",
-    image: "/images/news-science.jpg",
-  },
-  {
-    id: 3,
-    title: "Yoga & Wellness Week",
-    date: "January 15, 2025",
-    description:
-      "To promote holistic health, the school organized a Yoga & Wellness Week where students actively participated in yoga sessions and wellness workshops.",
-    image: "/images/news-yoga.jpg",
+      "Vinayak International School proudly hosted its Annual Sports Day with great enthusiasm. Students participated in athletics, volleyball, Kho-Kho, Kabaddi, and cultural performances.",
+    image: "/images/news/news1.jpeg",
   },
 ];
 
@@ -34,18 +18,18 @@ const NewsAndAnnouncement = () => {
       {/* Hero Section */}
       <div className="relative w-full h-[300px]">
         <Image
-          src="/images/news-hero.jpg"
+          src="/images/heroBanner/news-and-announcement.png"
           alt="Latest News and Announcements"
           fill
           className="object-cover object-center"
           priority
           sizes="100vw"
         />
-        <div className="absolute inset-0 flex items-center justify-center bg-black/50">
+        {/* <div className="absolute inset-0 flex items-center justify-center bg-black/50">
           <h1 className="text-4xl md:text-5xl font-bold text-white">
             Latest News & Announcements
           </h1>
-        </div>
+        </div> */}
       </div>
 
       {/* News Section */}
@@ -61,7 +45,7 @@ const NewsAndAnnouncement = () => {
                   src={news.image}
                   alt={news.title}
                   fill
-                  className="object-cover"
+                  className="object-contain"
                   sizes="100vw"
                 />
               </div>

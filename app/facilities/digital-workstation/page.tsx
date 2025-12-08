@@ -31,7 +31,7 @@ const DigitalWorkstation = () => {
           </div>
           <div className="flex-1">
             <Image
-              src="/images/computer-lab.jpg"
+              src="/images/facilities/computer_lab.jpg"
               alt="Students in computer lab"
               width={500}
               height={350}
@@ -55,7 +55,7 @@ const DigitalWorkstation = () => {
           </div>
           <div className="flex-1">
             <Image
-              src="/images/smart-class.jpg"
+              src="/images/facilities/smartclass.jpg"
               alt="Students in smart classroom"
               width={500}
               height={350}
@@ -79,7 +79,7 @@ const DigitalWorkstation = () => {
           </div>
           <div className="flex-1">
             <Image
-              src="/images/digital-learning.jpg"
+              src="/images/facilities/digital_learning.jpg"
               alt="Students engaged in digital learning"
               width={500}
               height={350}

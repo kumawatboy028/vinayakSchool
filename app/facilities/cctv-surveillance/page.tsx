@@ -6,47 +6,74 @@ const CCTVSurveillance = () => {
       {/* Hero Section */}
       <div className="relative w-full h-[320px]">
         <Image
-          src="/images/cctv-hero.jpg"
+          src="/images/heroBanner/cctv-surrveillance.png"
           alt="CCTV Surveillance - Vinayak International School"
           fill
           className="object-cover object-center"
           priority
           sizes="100vw"
         />
-        <div className="absolute inset-0 flex items-center justify-center bg-black/40">
-          <div className="text-center text-white">
-            <h1 className="text-3xl md:text-5xl font-bold mt-2">
-              24 Hours CCTV Surveillance
-            </h1>
-          </div>
-        </div>
       </div>
 
       {/* CCTV Section */}
-      <section className="bg-white rounded-2xl shadow-lg p-10 flex flex-col md:flex-row gap-10 items-center mt-10">
-        <div className="flex-1 space-y-4">
+      <section className="max-w-6xl mx-auto mt-12 px-6">
+        <div className="bg-white rounded-2xl shadow-lg p-10 space-y-6">
           <h2 className="text-3xl font-bold text-amber-800">
             Ensuring Safety at Every Step
           </h2>
-          <p className="text-gray-600 leading-relaxed">
+
+          <p className="text-gray-700 leading-relaxed">
             The safety of our students is our utmost priority. Our campus is
-            equipped with **24/7 CCTV surveillance**, ensuring a secure
-            environment where learning can take place without worries.
+            equipped with{" "}
+            <span className="font-semibold">24/7 CCTV surveillance</span>,
+            ensuring a secure environment where learning can take place without
+            any worry.
           </p>
-          <p className="text-gray-600 leading-relaxed">
-            Every corner of the school is carefully monitored, giving parents
-            and guardians peace of mind. With advanced surveillance systems, we
-            make sure our students are always protected within school premises.
+
+          <p className="text-gray-700 leading-relaxed">
+            Every area of the school—from classrooms and corridors to
+            playgrounds and activity zones—is carefully monitored. This provides
+            parents with peace of mind knowing that their children are in a safe
+            and protected environment throughout the school day.
           </p>
-        </div>
-        <div className="flex-1">
-          <Image
-            src="/images/cctv-surveillance.jpg"
-            alt="CCTV Cameras in School"
-            width={550}
-            height={400}
-            className="rounded-2xl shadow-md object-cover"
-          />
+
+          {/* Key Features Cards */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 pt-4">
+            {[
+              {
+                title: "24/7 Monitoring",
+                desc: "Continuous surveillance across campus to ensure student safety at all times.",
+              },
+              {
+                title: "High-Coverage Cameras",
+                desc: "Strategically placed cameras covering classrooms, corridors, and outdoor areas.",
+              },
+              {
+                title: "Real-Time Tracking",
+                desc: "Instant access for security personnel to monitor activities in real time.",
+              },
+              {
+                title: "Secure Environment",
+                desc: "Provides a safe, disciplined, and well-supervised environment for learning.",
+              },
+              {
+                title: "Emergency Response",
+                desc: "Quick action and coordination through centralized surveillance systems.",
+              },
+              {
+                title: "Peace of Mind",
+                desc: "Parents feel confident knowing their children are in safe hands.",
+              },
+            ].map((item, index) => (
+              <div
+                key={index}
+                className="bg-gray-100 rounded-2xl p-6 shadow-md hover:shadow-xl transition-all"
+              >
+                <h3 className="text-xl font-semibold mb-3">{item.title}</h3>
+                <p className="text-gray-600">{item.desc}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
     </div>

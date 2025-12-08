@@ -32,18 +32,18 @@ const Gallery = () => {
       {/* Hero Section */}
       <div className="relative w-full h-[300px]">
         <Image
-          src="/images/gallery-hero.jpg"
+          src="/images/heroBanner/our-gallery.png"
           alt="School Gallery"
           fill
           className="object-cover object-center"
           priority
           sizes="100vw"
         />
-        <div className="absolute inset-0 flex items-center justify-center bg-black/50">
+        {/* <div className="absolute inset-0 flex items-center justify-center bg-black/50">
           <h1 className="text-4xl md:text-5xl font-bold text-white">
             School Gallery
           </h1>
-        </div>
+        </div> */}
       </div>
 
       {/* Gallery Section */}

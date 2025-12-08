@@ -37,46 +37,33 @@ const CareerCounselling = () => {
       {/* Hero Section */}
       <div className="relative w-full h-[300px]">
         <Image
-          src="/images/career-hero.jpg"
+          src="/images/heroBanner/career-counselling.png"
           alt="Career Counselling"
           fill
           className="object-cover object-center"
           priority
           sizes="100vw"
         />
-        <div className="absolute inset-0 flex items-center justify-center bg-black/50">
+        {/* <div className="absolute inset-0 flex items-center justify-center bg-black/50">
           <h1 className="text-4xl md:text-5xl font-bold text-white">
             Career Counselling
           </h1>
-        </div>
+        </div> */}
       </div>
 
       {/* Counselling Section */}
-      <section className="max-w-6xl mx-auto py-12 px-6 space-y-12">
-        {counsellingData.map((counsel, index) => (
+      <section className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 mt-6">
+        {counsellingData.map((counsel) => (
           <div
             key={counsel.id}
-            className={`flex flex-col md:flex-row items-center gap-8 ${
-              index % 2 === 1 ? "md:flex-row-reverse" : ""
-            }`}
+            className="bg-white p-6 rounded-2xl shadow-md border border-gray-200 hover:shadow-xl transition-shadow"
           >
-            {/* Image */}
-            <div className="relative w-full md:w-1/2 h-72 rounded-2xl overflow-hidden shadow-lg">
-              <Image
-                src={counsel.image}
-                alt={counsel.title}
-                fill
-                className="object-cover"
-                sizes="100vw"
-              />
-            </div>
-            {/* Text */}
-            <div className="md:w-1/2">
-              <h2 className="text-2xl font-bold text-amber-800 mb-4">
-                {counsel.title}
-              </h2>
-              <p className="text-gray-600">{counsel.description}</p>
-            </div>
+            <h2 className="text-xl font-semibold text-amber-700 mb-3">
+              {counsel.title}
+            </h2>
+            <p className="text-gray-600 leading-relaxed">
+              {counsel.description}
+            </p>
           </div>
         ))}
       </section>

@@ -5,7 +5,7 @@ const MorningAssembly = () => (
     {/* Hero Section */}
     <div className="relative w-full h-[300px]">
       <Image
-        src="/images/morning-assembly.jpg" // replace with your assembly image
+        src="/images/banners/morning_assembly.jpg" // replace with your assembly image
         alt="Morning Assembly"
         fill
         className="object-cover object-center"

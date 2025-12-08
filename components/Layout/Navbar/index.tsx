@@ -89,7 +89,7 @@ const menuItems = [
         name: "News and Announcements",
         href: "/latest-updates/news-and-announcements",
       },
-      { name: "Press and Media", href: "/latest-updates/press-and-media" },
+      // { name: "Press and Media", href: "/latest-updates/press-and-media" },
       { name: "Our Gallery", href: "/latest-updates/gallery" },
       { name: "Video Gallery", href: "/latest-updates/video-gallery" },
     ],

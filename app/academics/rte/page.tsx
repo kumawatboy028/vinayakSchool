@@ -6,18 +6,18 @@ const RTEAdmission = () => {
       {/* Hero Section */}
       <div className="relative w-full h-[300px]">
         <Image
-          src="/images/rte.jpg"
+          src="/images/heroBanner/admission-under-RTE.png"
           alt="Admission Under RTE"
           fill
           className="object-cover object-center"
           priority
           sizes="100vw"
         />
-        <div className="absolute inset-0 flex items-center justify-center bg-black/50">
+        {/* <div className="absolute inset-0 flex items-center justify-center bg-black/50">
           <h1 className="text-4xl md:text-5xl font-bold text-white text-center">
             Admission Under RTE
           </h1>
-        </div>
+        </div> */}
       </div>
 
       {/* Content Section */}

@@ -6,19 +6,19 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const galleryImages = [
   {
-    src: "/images/gallery/classroom.jpg",
+    src: "/images/banners/classroom.jpg",
     caption: "Students in classroom",
   },
   {
-    src: "/images/gallery/assembly.jpg",
+    src: "/images/banners/morning_assembly.jpg",
     caption: "Morning Assembly",
   },
   {
-    src: "/images/heroBanner/fest1.jpg",
+    src: "/images/banners/fest1.jpg",
     caption: "Cultural Fest",
   },
   {
-    src: "/images/gallery/sports.jpg",
+    src: "/images/banners/sports_day.jpg",
     caption: "Annual Sports Day",
   },
 ];

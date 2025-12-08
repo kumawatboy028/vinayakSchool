@@ -6,20 +6,20 @@ const SchoolLibrary = () => {
       {/* Hero Section */}
       <div className="relative w-full h-[320px]">
         <Image
-          src="/images/facilities-hero.jpg"
+          src="/images/heroBanner/school-library.png"
           alt="Facilities - Vinayak International School"
           fill
           className="object-cover object-center"
           priority
           sizes="100vw"
         />
-        <div className="absolute inset-0 flex items-center justify-center bg-black/40">
+        {/* <div className="absolute inset-0 flex items-center justify-center bg-black/40">
           <div className="text-center text-white">
             <h1 className="text-3xl md:text-5xl font-bold mt-2">
               School Library
             </h1>
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* Library Main Section */}
@@ -43,7 +43,7 @@ const SchoolLibrary = () => {
         </div>
         <div className="flex-1">
           <Image
-            src="/images/school-library.jpg"
+            src="/images/facilities/library.jpeg"
             alt="School Library"
             width={550}
             height={400}
