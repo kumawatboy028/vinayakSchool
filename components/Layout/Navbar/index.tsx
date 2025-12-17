@@ -87,7 +87,7 @@ const menuItems = [
       },
       // { name: "Press and Media", href: "/latest-updates/press-and-media" },
       { name: "Our Gallery", href: "/latest-updates/gallery" },
-      { name: "Video Gallery", href: "/latest-updates/video-gallery" },
+      // { name: "Video Gallery", href: "/latest-updates/video-gallery" },
     ],
   },
   {

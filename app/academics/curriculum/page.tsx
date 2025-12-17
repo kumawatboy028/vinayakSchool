@@ -49,7 +49,7 @@ const curriculum = [
     description:
       "The Senior Secondary curriculum follows CBSE guidelines and prepares students for board examinations and higher education. Students can choose academic streams based on their interests and career goals.",
     subjects: [
-      "Science Stream: Physics, Chemistry, Biology/Mathematics, Computer Science",
+      "Science Stream: Physics, Chemistry, Biology/Mathematics, Computer Science/AI",
       "Commerce Stream: Accountancy, Business Studies, Economics, Mathematics",
       "Humanities Stream: History, Political Science, Geography, Sociology",
       "Compulsory: English Core, Physical Education/Optional Subjects",

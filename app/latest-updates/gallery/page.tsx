@@ -1,32 +1,52 @@
-// pages/gallery.tsx
+"use client"; // Required for state and clicks
+
 import Image from "next/image";
+import { useState } from "react";
 
 const galleryData = [
   {
     id: 1,
-    title: "Annual Function Highlights",
-    description: "Snapshots from our grand Annual Function celebration.",
-    embedUrl:
-      "https://www.facebook.com/plugins/post.php?href=https://www.facebook.com/yourpage/posts/1234567890&show_text=true&width=500",
+    title: "New Year Celebrations",
+    description:
+      "Celebrating the innocence, curiosity, and bright potential of every child at our school.",
+    imageUrl:
+      "https://drive.google.com/uc?id=1KD1jxNc9bwC4rJqy_cGFj5rjufcfwHzB",
   },
   {
     id: 2,
-    title: "Independence Day Celebration",
-    description: "Students performing at the Independence Day program.",
-    embedUrl:
-      "https://www.facebook.com/plugins/post.php?href=https://www.facebook.com/yourpage/posts/987654321&show_text=true&width=500",
+    title: "Sports Week Highlights",
+    description: "Snapshots from our grand Sports week celebration.",
+    imageUrl:
+      "https://drive.google.com/uc?id=1KD1jxNc9bwC4rJqy_cGFj5rjufcfwHzB",
   },
   {
     id: 3,
-    title: "Art & Craft Exhibition",
+    title: "New Year Celebrations",
+    description: "Students performing at the New Year program.",
+    imageUrl:
+      "https://drive.google.com/uc?id=1WLCj2yoPF2ta4T--9NaqxdcU1jPzUV86",
+  },
+  {
+    id: 4,
+    title: "Hands-on Robotics Workshop",
     description:
-      "Creative artworks displayed during our Art & Craft Exhibition.",
-    embedUrl:
-      "https://www.facebook.com/plugins/post.php?href=https://www.facebook.com/yourpage/posts/543216789&show_text=true&width=500",
+      "Transforming students from technology consumers into technology creators.",
+    imageUrl:
+      "https://drive.google.com/uc?id=1vlUmq95OoC8WTzGW7fosC2bF1N0KoD84",
+  },
+  {
+    id: 5,
+    title: "Teachers' Day Celebration",
+    description:
+      "A Tribute to Our Mentors: Honoring the Architects of Our Future",
+    imageUrl:
+      "https://drive.google.com/uc?id=1epBS3U5_pSmJyVDDUye0YhMrk3VYUjOm",
   },
 ];
 
 const Gallery = () => {
+  const [selectedImg, setSelectedImg] = useState<string | null>(null);
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
@@ -37,13 +57,7 @@ const Gallery = () => {
           fill
           className="object-cover object-center"
           priority
-          sizes="100vw"
         />
-        {/* <div className="absolute inset-0 flex items-center justify-center bg-black/50">
-          <h1 className="text-4xl md:text-5xl font-bold text-white">
-            School Gallery
-          </h1>
-        </div> */}
       </div>
 
       {/* Gallery Section */}
@@ -52,29 +66,49 @@ const Gallery = () => {
           {galleryData.map((item) => (
             <div
               key={item.id}
-              className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
+              className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow cursor-pointer"
+              onClick={() => setSelectedImg(item.imageUrl)}
             >
+              <div className="relative h-64 w-full">
+                <Image
+                  src={item.imageUrl}
+                  alt={item.title}
+                  fill
+                  className="object-cover"
+                />
+              </div>
               <div className="p-6">
                 <h2 className="text-xl font-bold text-amber-800 mb-2">
                   {item.title}
                 </h2>
-                <p className="text-gray-600 mb-4">{item.description}</p>
-                <div className="w-full overflow-hidden rounded-lg">
-                  <iframe
-                    src={item.embedUrl}
-                    width="100%"
-                    height="450"
-                    style={{ border: "none", overflow: "hidden" }}
-                    scrolling="no"
-                    frameBorder="0"
-                    allowFullScreen={true}
-                  ></iframe>
-                </div>
+                <p className="text-gray-600">{item.description}</p>
               </div>
             </div>
           ))}
         </div>
       </section>
+
+      {/* --- LIGHTBOX MODAL --- */}
+      {selectedImg && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 p-4 transition-all"
+          onClick={() => setSelectedImg(null)}
+        >
+          {/* Close Button */}
+          <button className="absolute top-5 right-10 text-white text-4xl font-bold">
+            &times;
+          </button>
+
+          <div className="relative w-full max-w-5xl h-[80vh]">
+            <Image
+              src={selectedImg}
+              alt="Enlarged view"
+              fill
+              className="object-contain"
+            />
+          </div>
+        </div>
+      )}
     </div>
   );
 };
