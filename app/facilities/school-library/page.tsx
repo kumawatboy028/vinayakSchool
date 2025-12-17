@@ -6,20 +6,21 @@ const SchoolLibrary = () => {
       {/* Hero Section */}
       <div className="relative w-full h-[200px] sm:h-[300px] md:h-[300px] lg:h-[300px]">
         <Image
-          src="https://drive.google.com/uc?id=19jHGm9-gAVV0wpOJY9DmUZJOUjglkB2D"
+          src="/images/schoolOverview.jpg"
           alt="Facilities - Vinayak International School"
           fill
           className="object-cover object-center"
           priority
           sizes="100vw"
+          objectFit="revert"
         />
-        {/* <div className="absolute inset-0 flex items-center justify-center bg-black/40">
+        <div className="absolute inset-0 flex items-center justify-center bg-black/60">
           <div className="text-center text-white">
             <h1 className="text-3xl md:text-5xl font-bold mt-2">
               School Library
             </h1>
           </div>
-        </div> */}
+        </div>
       </div>
 
       {/* Library Main Section */}

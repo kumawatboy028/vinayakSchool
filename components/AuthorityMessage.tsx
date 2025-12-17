@@ -10,7 +10,7 @@ const messages = [
     name: "Mr. Mahesh Kumar Sharma",
     position: "Chairman",
     qualifications: "",
-    image: "https://drive.google.com/uc?id=113Xbq_cd8CdvqryHzYW5RKlVSqbDV74M",
+    image: "/images/authorities/chairman.jpg",
   },
   {
     role: `Managing Director's Message`,
@@ -18,7 +18,7 @@ const messages = [
     name: "Er. Rahul Sharma",
     position: `Managing Director`,
     qualifications: "B.Tech. (CSE)",
-    image: "https://drive.google.com/uc?id=1FyCKRiNa1LCvIFEmSwZVnHIjlsT0u7gW",
+    image: "/images/authorities/director.png",
   },
   {
     role: `Principal's Message`,
@@ -26,7 +26,7 @@ const messages = [
     name: "Dr. Anant Sharma",
     position: "Principal",
     qualifications: "Ph.D., NET-MBA, M.Sc., M.Com., M.A., B.Ed. & CTET",
-    image: "https://drive.google.com/uc?id=1aU68qpb73uyFVNpzZeAKccj2MEyD_1mf",
+    image: "/images/authorities/principal.jpg",
   },
 ];
 

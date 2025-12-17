@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 
 const images = [
   "https://drive.google.com/uc?id=1WLCj2yoPF2ta4T--9NaqxdcU1jPzUV86",
-  "https://drive.google.com/uc?id=1enAMblia0-3Fs9gElPUPIXEALhl-VFTm",
+  "/images/schoolOverview.jpg",
   "https://drive.google.com/uc?id=1piJzuAvBJxpJ2QZoqAx5g-2QBKybOVOL",
 ];
 

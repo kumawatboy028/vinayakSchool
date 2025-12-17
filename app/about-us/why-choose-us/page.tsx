@@ -7,7 +7,7 @@ const WhyChooseUs = () => {
     <section className="w-full bg-white">
       <div className="relative w-full h-[200px] sm:h-[300px] md:h-[300px] lg:h-[300px]">
         <Image
-          src="https://drive.google.com/uc?id=1enAMblia0-3Fs9gElPUPIXEALhl-VFTm"
+          src="/images/schoolOverview.jpg"
           alt="From the Desk of Director"
           fill
           className="object-cover object-center"

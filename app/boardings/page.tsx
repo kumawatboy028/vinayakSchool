@@ -6,18 +6,19 @@ const BoardingFacilities = () => {
       {/* Hero Section */}
       <div className="relative w-full h-[200px] sm:h-[300px] md:h-[300px] lg:h-[300px]">
         <Image
-          src="https://drive.google.com/uc?id=1QBKxZDSQ4kUJ2YY487I5gC68ddRYzl3i"
+          src="/images/schoolOverview.jpg"
           alt="Boarding Facilities"
           fill
           className="object-cover object-center"
           priority
           sizes="100vw"
+          objectFit="revert"
         />
-        {/* <div className="absolute inset-0 flex items-center justify-center bg-black/50">
+        <div className="absolute inset-0 flex items-center justify-center bg-black/50">
           <h1 className="text-4xl md:text-5xl font-bold text-white">
             Boarding Facilities
           </h1>
-        </div> */}
+        </div>
       </div>
 
       {/* Intro Section */}

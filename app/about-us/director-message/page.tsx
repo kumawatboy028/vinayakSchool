@@ -8,7 +8,7 @@ const DirectorMessage = () => {
       {/* Hero Section */}
       <div className="relative w-full h-[200px] sm:h-[300px] md:h-[300px] lg:h-[300px]">
         <Image
-          src="https://drive.google.com/uc?id=1enAMblia0-3Fs9gElPUPIXEALhl-VFTm"
+          src="/images/schoolOverview.jpg"
           alt="From the Desk of Director"
           fill
           className="object-cover object-center"
@@ -50,7 +50,7 @@ const DirectorMessage = () => {
             <div className="flex-shrink-0 w-full md:w-1/3 flex justify-center">
               <div className="w-64 h-80 rounded-lg shadow-lg relative overflow-hidden bg-gray-200">
                 <Image
-                  src="https://drive.google.com/uc?id=1FyCKRiNa1LCvIFEmSwZVnHIjlsT0u7gW"
+                  src="/images/authorities/director.png"
                   alt="Mr. Rahul Sharma - Director of Vinayak International School"
                   fill
                   className="object-cover object-center"

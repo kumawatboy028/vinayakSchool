@@ -7,7 +7,7 @@ const AdmissionDesk = () => {
     <section className="w-full bg-white">
       <div className="relative w-full h-[200px] sm:h-[300px] md:h-[300px] lg:h-[300px]">
         <Image
-          src="https://drive.google.com/uc?id=1Dzprq_uOVnzarwRV0a6soHgX3MScIV1q"
+          src="/images/schoolOverview.jpg"
           alt="Admission Desk - Vinayak International School"
           fill
           className="object-cover object-center"
@@ -16,13 +16,13 @@ const AdmissionDesk = () => {
           objectFit="revert"
         />
         {/* Overlay Text */}
-        {/* <div className="absolute inset-0 flex items-center justify-center bg-black/40">
+        <div className="absolute inset-0 flex items-center justify-center bg-black/60">
           <div className="text-center text-white">
             <h1 className="text-3xl md:text-5xl font-bold mt-2">
               Admission Desk
             </h1>
           </div>
-        </div> */}
+        </div>
       </div>
 
       {/* Welcome Message */}

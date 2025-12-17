@@ -8,12 +8,13 @@ const SchoolUniform = () => {
       {/* Hero */}
       <div className="relative w-full h-[350px]">
         <Image
-          src="https://drive.google.com/uc?id=16Dupycu01YIAaZN_hY1FKvWLhzoImKhs"
+          src="/images/schoolOverview.jpg"
           alt="School Uniform Guidelines - Vinayak International School"
           fill
           className="object-cover object-center"
           priority
           sizes="100vw"
+          objectFit="revert"
         />
         <div className="absolute inset-0 flex items-center justify-center bg-black/60">
           <div className="text-center text-white">

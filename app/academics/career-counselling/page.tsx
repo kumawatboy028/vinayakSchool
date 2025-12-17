@@ -31,20 +31,21 @@ const CareerCounselling = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="relative w-full h-[300px]">
+      <div className="relative w-full h-[200px] sm:h-[300px] md:h-[300px] lg:h-[300px]">
         <Image
-          src="https://drive.google.com/uc?id=1Lx7qG5pjADcANEiMS_FpaFyUzFLjCOFX"
+          src="/images/schoolOverview.jpg"
           alt="Career Counselling"
           fill
           className="object-cover object-center"
           priority
           sizes="100vw"
+          objectFit="revert"
         />
-        {/* <div className="absolute inset-0 flex items-center justify-center bg-black/50">
+        <div className="absolute inset-0 flex items-center justify-center bg-black/60">
           <h1 className="text-4xl md:text-5xl font-bold text-white">
             Career Counselling
           </h1>
-        </div> */}
+        </div>
       </div>
 
       {/* Counselling Section */}
