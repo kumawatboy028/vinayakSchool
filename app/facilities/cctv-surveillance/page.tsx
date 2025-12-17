@@ -4,7 +4,7 @@ const CCTVSurveillance = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="relative w-full h-[320px]">
+      <div className="relative w-full h-[200px] sm:h-[300px] md:h-[300px] lg:h-[300px]">
         <Image
           src="https://drive.google.com/18bpmDwbcRlxFn4kou85i390p8n6R29CR"
           alt="CCTV Surveillance - Vinayak International School"

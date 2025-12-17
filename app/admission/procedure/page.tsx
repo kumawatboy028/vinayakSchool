@@ -5,7 +5,7 @@ import Image from "next/image";
 const AdmissionProcedure = () => {
   return (
     <section className="w-full bg-white">
-      <div className="relative w-full h-[320px]">
+      <div className="relative w-full h-[200px] sm:h-[300px] md:h-[300px] lg:h-[300px]">
         <Image
           src="https://drive.google.com/uc?id=1W2o3BDQCVMMsTKgpvPm2TxM2AEf6uBmB"
           alt="Admission Procedure - Vinayak International School"

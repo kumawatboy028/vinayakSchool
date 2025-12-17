@@ -4,7 +4,7 @@ const ComputerLab = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="relative w-full h-[320px]">
+      <div className="relative w-full h-[200px] sm:h-[300px] md:h-[300px] lg:h-[300px]">
         <Image
           src="https://drive.google.com/uc?id=1IrtKLH2_tcRvvg7W7fTsJn0w0mptY2E_"
           alt="Facilities - Vinayak International School"

@@ -5,7 +5,7 @@ const SportsAndYoga = () => {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-800">
       {/* Header Banner */}
-      <div className="relative w-full h-[320px]">
+      <div className="relative w-full h-[200px] sm:h-[300px] md:h-[300px] lg:h-[300px]">
         <Image
           src="https://drive.google.com/uc?id=1fbYVjo9LIc8X-U0NwG_PG4aQrwVukmKp"
           alt="Facilities - Vinayak International School"

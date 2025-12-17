@@ -6,7 +6,7 @@ const SchoolAffiliationDetails = () => {
   return (
     <section className="w-full bg-white">
       {/* Hero */}
-      <div className="relative w-full h-[320px]">
+      <div className="relative w-full h-[200px] sm:h-[300px] md:h-[300px] lg:h-[300px]">
         <Image
           src="https://drive.google.com/uc?id=1RKnLNcme8xQagOGqKbNXu5meLN-jx5cN"
           alt="School Affiliation Details - Vinayak International School"

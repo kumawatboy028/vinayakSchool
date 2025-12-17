@@ -5,7 +5,7 @@ const MusicDance = () => {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-800">
       {/* Header */}
-      <div className="relative w-full h-[320px]">
+      <div className="relative w-full h-[200px] sm:h-[300px] md:h-[300px] lg:h-[300px]">
         <Image
           src="https://drive.google.com/uc?id=1J2PsfTSFL60nGSO135laiDFkRJC-B8ub"
           alt="Music & Dance - Vinayak International School"

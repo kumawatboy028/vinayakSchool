@@ -4,7 +4,7 @@ const BoardingFacilities = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="relative w-full h-[320px]">
+      <div className="relative w-full h-[200px] sm:h-[300px] md:h-[300px] lg:h-[300px]">
         <Image
           src="https://drive.google.com/uc?id=1QBKxZDSQ4kUJ2YY487I5gC68ddRYzl3i"
           alt="Boarding Facilities"
