@@ -15,7 +15,7 @@ const facilities = [
       "Interactive digital boards and modern teaching aids for enhanced learning experience.",
     icon: <FaDesktop className="text-blue-600 text-2xl" />,
     bg: "bg-blue-100",
-    image: "https://drive.google.com/uc?id=1x0Ry2SFRNboDJAmI9H-61fX4ncO_pxT2",
+    image: "/images/smartclass.jpg",
   },
   {
     title: "Sports Complex",

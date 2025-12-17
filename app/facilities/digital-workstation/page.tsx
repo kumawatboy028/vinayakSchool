@@ -55,7 +55,7 @@ const DigitalWorkstation = () => {
           </div>
           <div className="flex-1">
             <Image
-              src="https://drive.google.com/uc?id=1x0Ry2SFRNboDJAmI9H-61fX4ncO_pxT2"
+              src="/images/smartclass.jpg"
               alt="Students in smart classroom"
               width={500}
               height={350}

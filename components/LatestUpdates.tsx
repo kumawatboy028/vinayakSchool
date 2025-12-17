@@ -4,7 +4,7 @@ import { Calendar } from "lucide-react";
 
 const updates = [
   {
-    date: "July 25, 2025",
+    date: "November 25, 2025",
     title: "Annual Sports Day 2025",
     description:
       "Join us for our annual sports day celebration with exciting competitions and performances.",
@@ -12,21 +12,21 @@ const updates = [
     tagColor: "bg-green-100 text-green-800",
   },
   {
-    date: "August 10, 2025",
-    title: "Science Exhibition Success",
+    date: "November 14, 2025",
+    title: "Children's Day Celebration",
     description:
-      "Our students showcased innovative projects at the inter-school science exhibition.",
+      "Young Entrepreneurs in Action: The Annual Children’s Fair Sub-headline: Learning the art of business through ownership, creativity, and commerce.",
     tag: "Achievement",
     tagColor: "bg-blue-100 text-blue-800",
   },
-  {
-    date: "July 21, 2025",
-    title: "New Computer Lab Inauguration",
-    description:
-      "State-of-the-art computer lab with latest technology inaugurated for enhanced learning.",
-    tag: "Infrastructure",
-    tagColor: "bg-purple-100 text-purple-800",
-  },
+  // {
+  //   date: "July 21, 2025",
+  //   title: "New Computer Lab Inauguration",
+  //   description:
+  //     "State-of-the-art computer lab with latest technology inaugurated for enhanced learning.",
+  //   tag: "Infrastructure",
+  //   tagColor: "bg-purple-100 text-purple-800",
+  // },
 ];
 
 const LatestUpdates = () => {

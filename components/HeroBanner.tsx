@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useState, useEffect } from "react";
 
 const images = [
@@ -34,18 +35,18 @@ const HeroBanner = () => {
             mind, body and soul.
           </p>
           <div className="flex flex-wrap gap-4">
-            <a
-              href="/apply"
+            <Link
+              href="/#contact-section"
               className="bg-[red] hover:bg-[#ff7a00] text-white font-semibold px-6 py-3 rounded-full transition"
             >
               Admissions Open
-            </a>
-            <a
-              href="/contact"
+            </Link>
+            <Link
+              href="/#contact-section"
               className="border-2 border-[#1f3c88] text-[#1f3c88] hover:bg-[#1f3c88] hover:text-white font-semibold px-6 py-3 rounded-full transition"
             >
               Contact Us
-            </a>
+            </Link>
           </div>
           <div className="flex gap-6 mt-6 text-[#425075] text-sm">
             <div className="flex items-center gap-2">

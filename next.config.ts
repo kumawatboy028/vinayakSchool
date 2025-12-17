@@ -16,6 +16,10 @@ const nextConfig: NextConfig = {
         // Often required as Google redirects image content requests to this domain
         hostname: "lh3.googleusercontent.com",
       },
+      {
+        protocol: "https",
+        hostname: "*.googleusercontent.com", // 👈 Added wildcard '*' to catch all subdomains
+      },
     ],
   },
 };

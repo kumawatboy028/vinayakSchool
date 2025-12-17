@@ -56,10 +56,6 @@ const menuItems = [
       { name: "Houses", href: "/academics/houses" },
     ],
   },
-  {
-    name: "Mandatory Public Disclosure",
-    href: "/mandatory-disclosure",
-  },
   { name: "Boardings", href: "/boardings" },
   {
     name: "Facilities",
@@ -96,11 +92,7 @@ const menuItems = [
   },
   {
     name: "Contact Us",
-    submenu: [
-      { name: "Reach Us", href: "/contact" },
-      { name: "Apply for Admission", href: "/contact/feedback" },
-      { name: "Careers", href: "/contact/feedback" },
-    ],
+    href: "/#contact-section",
   },
 ];
 
