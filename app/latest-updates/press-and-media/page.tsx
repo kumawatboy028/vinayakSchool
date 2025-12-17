@@ -6,7 +6,7 @@ const PressMediaPage = () => {
       {/* Hero Section */}
       <div className="relative w-full h-[300px]">
         <Image
-          src="/images/heroBanner/press-and-media.png"
+          src="https://drive.google.com/uc?id=1l7-jNnWmL-Yyi9baIaWAbRo2CSyfmman"
           alt="Press and Media"
           fill
           className="object-cover object-center"

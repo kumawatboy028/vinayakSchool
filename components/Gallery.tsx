@@ -6,19 +6,19 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const galleryImages = [
   {
-    src: "/images/banners/classroom.jpg",
+    src: "https://drive.google.com/uc?id=1swl6O0AIB4lQyi2g86GdlHmg1itkHP3W",
     caption: "Students in classroom",
   },
   {
-    src: "/images/banners/morning_assembly.jpg",
+    src: "https://drive.google.com/uc?id=16Dupycu01YIAaZN_hY1FKvWLhzoImKhs",
     caption: "Morning Assembly",
   },
   {
-    src: "/images/banners/fest1.jpg",
+    src: "https://drive.google.com/uc?id=1sE0WBCZS1WwbQoSlGeP-nliyKu2Zl-Zp",
     caption: "Cultural Fest",
   },
   {
-    src: "/images/banners/sports_day.jpg",
+    src: "https://drive.google.com/uc?id=1pFRo1-3n1eUBsXT5QHYcuOptR13NZGpk",
     caption: "Annual Sports Day",
   },
 ];

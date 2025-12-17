@@ -6,21 +6,21 @@ const streamsData = [
     title: "Science Stream",
     description:
       "The Science stream at Vinayak International School prepares students for careers in Engineering, Medicine, Research, and Technology. We offer Physics, Chemistry, Mathematics, and Biology with modern labs and expert faculty.",
-    image: "/images/facilities/science_stream.webp",
+    image: "https://drive.google.com/uc?id=1nZ3DNOQuogze1NTs59oOMxfGd3XGnXfJ",
   },
   {
     id: 2,
     title: "Commerce Stream",
     description:
       "The Commerce stream helps students build strong foundations in Business, Accountancy, and Economics. It opens career opportunities in Management, Finance, Banking, and Entrepreneurship.",
-    image: "/images/facilities/commerce_stream.png",
+    image: "https://drive.google.com/uc?id=1EagSpP0wvt6JZ04ATbNe6Us2EzLuB4yV",
   },
   {
     id: 3,
     title: "Arts & Humanities Stream",
     description:
       "The Arts & Humanities stream nurtures creativity and analytical thinking. Subjects include History, Political Science, Geography, Sociology, and Psychology, preparing students for diverse professional fields.",
-    image: "/images/facilities/arts_and_humanities.jpg",
+    image: "https://drive.google.com/uc?id=1IFzfAqjR6ZgyZrlpBRyUiZUpv5VZFeq5",
   },
 ];
 
@@ -30,7 +30,7 @@ const StreamsOffered = () => {
       {/* Hero Section */}
       <div className="relative w-full h-[350px]">
         <Image
-          src="/images/heroBanner/streams-offered.png"
+          src="https://drive.google.com/uc?id=1PHHcC5nj-3wlFDDnOIUmcoD30IGS2A-S"
           alt="Streams Offered"
           fill
           className="object-cover object-center"

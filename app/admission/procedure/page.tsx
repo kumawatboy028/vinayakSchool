@@ -7,7 +7,7 @@ const AdmissionProcedure = () => {
     <section className="w-full bg-white">
       <div className="relative w-full h-[320px]">
         <Image
-          src="/images/heroBanner/admission-procedure.png"
+          src="https://drive.google.com/uc?id=1W2o3BDQCVMMsTKgpvPm2TxM2AEf6uBmB"
           alt="Admission Procedure - Vinayak International School"
           fill
           className="object-cover object-center"

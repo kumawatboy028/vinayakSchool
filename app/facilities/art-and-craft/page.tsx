@@ -6,7 +6,7 @@ const ArtAndCraft = () => {
       {/* Hero Section */}
       <div className="relative w-full h-[320px]">
         <Image
-          src="/images/heroBanner/art-and-craft.png"
+          src="https://drive.google.com/uc?id=1MXVytmLR1Og2OZrVED-bPZpcKtfnaQRc"
           alt="Facilities - Vinayak International School"
           fill
           className="object-cover object-center"
@@ -36,7 +36,7 @@ const ArtAndCraft = () => {
         </div>
 
         {/* Image Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="rounded-2xl overflow-hidden shadow-lg">
             <Image
               src="/images/art-craft1.jpg"
@@ -64,7 +64,7 @@ const ArtAndCraft = () => {
               className="object-cover w-full h-64"
             />
           </div>
-        </div>
+        </div> */}
       </section>
     </div>
   );

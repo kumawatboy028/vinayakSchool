@@ -6,28 +6,24 @@ const counsellingData = [
     title: "Personalized Guidance",
     description:
       "Our dedicated counsellors provide one-on-one sessions to help students discover their strengths, interests, and aptitudes to choose the right career path.",
-    image: "/images/career-personal.jpg",
   },
   {
     id: 2,
     title: "Workshops & Seminars",
     description:
       "Regular workshops and seminars are conducted with industry experts, alumni, and professionals to expose students to various career opportunities.",
-    image: "/images/career-workshop.jpg",
   },
   {
     id: 3,
     title: "Higher Education Assistance",
     description:
       "We guide students through college applications, entrance exam preparation, scholarship opportunities, and choosing the right courses for their future.",
-    image: "/images/career-college.jpg",
   },
   {
     id: 4,
     title: "Skill Development",
     description:
       "Special focus is given to developing essential 21st-century skills such as communication, critical thinking, leadership, and problem-solving.",
-    image: "/images/career-skills.jpg",
   },
 ];
 
@@ -37,7 +33,7 @@ const CareerCounselling = () => {
       {/* Hero Section */}
       <div className="relative w-full h-[300px]">
         <Image
-          src="/images/heroBanner/career-counselling.png"
+          src="https://drive.google.com/uc?id=1Lx7qG5pjADcANEiMS_FpaFyUzFLjCOFX"
           alt="Career Counselling"
           fill
           className="object-cover object-center"

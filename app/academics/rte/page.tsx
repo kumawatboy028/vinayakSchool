@@ -6,7 +6,7 @@ const RTEAdmission = () => {
       {/* Hero Section */}
       <div className="relative w-full h-[300px]">
         <Image
-          src="/images/heroBanner/admission-under-RTE.png"
+          src="https://drive.google.com/uc?id=1prMS94Z8gj1dKq9oUQoYhiYhyPfKcV2c"
           alt="Admission Under RTE"
           fill
           className="object-cover object-center"

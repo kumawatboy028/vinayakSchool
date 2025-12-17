@@ -7,7 +7,7 @@ const PrincipalMessage = () => {
     <section className="w-full bg-white">
       <div className="relative w-full h-[320px]">
         <Image
-          src="/images/heroBanner/schoolOverview.jpg"
+          src="https://drive.google.com/uc?id=1enAMblia0-3Fs9gElPUPIXEALhl-VFTm"
           alt="From the Desk of Principal"
           fill
           className="object-cover object-center"
@@ -64,7 +64,7 @@ const PrincipalMessage = () => {
             <div className="flex-shrink-0 w-full md:w-1/3 flex justify-center">
               <div className="w-64 h-80 rounded-lg shadow-lg relative overflow-hidden bg-gray-200">
                 <Image
-                  src="/images/authorities/principal.jpeg"
+                  src="https://drive.google.com/uc?id=1aU68qpb73uyFVNpzZeAKccj2MEyD_1mf"
                   alt="Dr. Anant Sharma - Principal of Vinayak International School"
                   fill
                   className="object-cover object-center"

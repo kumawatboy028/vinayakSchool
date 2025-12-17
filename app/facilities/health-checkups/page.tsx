@@ -7,7 +7,7 @@ const HealthCheckups = () => {
       {/* Header Banner */}
       <div className="relative w-full h-[320px]">
         <Image
-          src="/images/heroBanner/health-checkups.png"
+          src="https://drive.google.com/uc?id=1Owh8CZvfhgIS7t3Asj8FGpNb1fVxck7g"
           alt="Regular Health Checkups - Vinayak International School"
           fill
           className="object-cover object-center"

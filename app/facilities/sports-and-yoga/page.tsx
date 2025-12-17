@@ -7,7 +7,7 @@ const SportsAndYoga = () => {
       {/* Header Banner */}
       <div className="relative w-full h-[320px]">
         <Image
-          src="/images/heroBanner/sports-and-yoga.png"
+          src="https://drive.google.com/uc?id=1fbYVjo9LIc8X-U0NwG_PG4aQrwVukmKp"
           alt="Facilities - Vinayak International School"
           fill
           className="object-cover object-center"

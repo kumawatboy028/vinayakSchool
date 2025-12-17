@@ -6,7 +6,7 @@ const ScienceMathLab = () => {
       {/* Hero Section */}
       <div className="relative w-full h-[320px]">
         <Image
-          src="/images/heroBanner/science-and-maths-lab.png"
+          src="https://drive.google.com/uc?id=1KixxIT7A9xVbnz4n4pFRjxp0bsm8iBhS"
           alt="Facilities - Vinayak International School"
           fill
           className="object-cover object-center"

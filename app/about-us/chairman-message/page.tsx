@@ -7,7 +7,7 @@ const ChairmanMessage = () => {
     <section className="w-full bg-white">
       <div className="relative w-full h-[320px]">
         <Image
-          src="/images/heroBanner/schoolOverview.jpg"
+          src="https://drive.google.com/uc?id=1enAMblia0-3Fs9gElPUPIXEALhl-VFTm"
           alt="From the Desk of Chairman"
           fill
           className="object-cover object-center"
@@ -29,7 +29,7 @@ const ChairmanMessage = () => {
         <div className="float-left mr-6 mb-4">
           <div className="w-56 h-72 rounded-lg shadow-lg relative overflow-hidden bg-gray-200">
             <Image
-              src="/images/authorities/chairman.jpg"
+              src="https://drive.google.com/uc?id=113Xbq_cd8CdvqryHzYW5RKlVSqbDV74M"
               alt="Mahesh Kumar Sharma - Chairman of Vinayak International School"
               fill
               className="object-cover object-center"

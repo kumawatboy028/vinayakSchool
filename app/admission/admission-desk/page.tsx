@@ -7,7 +7,7 @@ const AdmissionDesk = () => {
     <section className="w-full bg-white">
       <div className="relative w-full h-[320px]">
         <Image
-          src="/images/heroBanner/admission-desk.png"
+          src="https://drive.google.com/uc?id=1Dzprq_uOVnzarwRV0a6soHgX3MScIV1q"
           alt="Admission Desk - Vinayak International School"
           fill
           className="object-cover object-center"

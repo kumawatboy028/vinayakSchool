@@ -6,7 +6,7 @@ const SchoolLibrary = () => {
       {/* Hero Section */}
       <div className="relative w-full h-[320px]">
         <Image
-          src="/images/heroBanner/school-library.png"
+          src="https://drive.google.com/uc?id=19jHGm9-gAVV0wpOJY9DmUZJOUjglkB2D"
           alt="Facilities - Vinayak International School"
           fill
           className="object-cover object-center"
@@ -43,7 +43,7 @@ const SchoolLibrary = () => {
         </div>
         <div className="flex-1">
           <Image
-            src="/images/facilities/library.jpeg"
+            src="https://drive.google.com/uc?id=1qr85moM3GrtlnwS8Zy4_sBt_h7PK2Bct"
             alt="School Library"
             width={550}
             height={400}

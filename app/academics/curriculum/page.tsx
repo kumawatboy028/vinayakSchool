@@ -63,7 +63,7 @@ const Curriculum = () => {
       {/* Hero Section */}
       <div className="relative w-full h-[300px]">
         <Image
-          src="/images/heroBanner/our-curriculum.png"
+          src="https://drive.google.com/uc?id=18d_aMpQHscVrJNfx1nA45oMbD56GP_yF"
           alt="Our Curriculum"
           fill
           className="object-cover object-center"

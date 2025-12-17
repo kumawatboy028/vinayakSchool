@@ -6,18 +6,18 @@ const BoardingFacilities = () => {
       {/* Hero Section */}
       <div className="relative w-full h-[320px]">
         <Image
-          src="/images/boarding-hero.jpg" // Replace with your own image path
+          src="https://drive.google.com/uc?id=1QBKxZDSQ4kUJ2YY487I5gC68ddRYzl3i"
           alt="Boarding Facilities"
           fill
           className="object-cover object-center"
           priority
           sizes="100vw"
         />
-        <div className="absolute inset-0 flex items-center justify-center bg-black/50">
+        {/* <div className="absolute inset-0 flex items-center justify-center bg-black/50">
           <h1 className="text-4xl md:text-5xl font-bold text-white">
             Boarding Facilities
           </h1>
-        </div>
+        </div> */}
       </div>
 
       {/* Intro Section */}
@@ -73,7 +73,7 @@ const BoardingFacilities = () => {
       </section>
 
       {/* Optional Boarding Image Gallery */}
-      <section className="py-14 bg-gray-100">
+      {/* <section className="py-14 bg-gray-100">
         <div className="max-w-6xl mx-auto px-6">
           <h3 className="text-2xl font-bold text-amber-800 mb-8 text-center">
             📸 A Glimpse of Boarding Life
@@ -105,7 +105,7 @@ const BoardingFacilities = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

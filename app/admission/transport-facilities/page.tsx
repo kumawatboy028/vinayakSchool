@@ -7,7 +7,7 @@ const TransportFacilities = () => {
     <section className="w-full bg-white">
       <div className="relative w-full h-[320px]">
         <Image
-          src="/images/heroBanner/transport.jpeg"
+          src="https://drive.google.com/uc?id=1piJzuAvBJxpJ2QZoqAx5g-2QBKybOVOL"
           alt="Transport Facilities - Vinayak International School"
           fill
           className="object-cover object-center"

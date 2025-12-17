@@ -7,7 +7,7 @@ const SchoolFees = () => {
     <section className="w-full bg-white">
       <div className="relative w-full h-[320px]">
         <Image
-          src="/images/heroBanner/fee-structure.png"
+          src="https://drive.google.com/uc?id=1JoZ6UIc1JYMGn8-Qvh_oYDchJiHOQD_z"
           alt="School Fees - Vinayak International School"
           fill
           className="object-cover object-center"

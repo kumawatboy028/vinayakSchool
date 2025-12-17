@@ -8,7 +8,7 @@ const newsData = [
     date: "November 25, 2025",
     description:
       "Vinayak International School proudly hosted its Annual Sports Day with great enthusiasm. Students participated in athletics, volleyball, Kho-Kho, Kabaddi, and cultural performances.",
-    image: "/images/news/news1.jpeg",
+    image: "https://drive.google.com/uc?id=14ytsS7ZCjjlxbsoTiuSPFg2183Ly0-fn",
   },
 ];
 
@@ -18,7 +18,7 @@ const NewsAndAnnouncement = () => {
       {/* Hero Section */}
       <div className="relative w-full h-[300px]">
         <Image
-          src="/images/heroBanner/news-and-announcement.png"
+          src="https://drive.google.com/uc?id=10ZUpRmmSn_k8NZM274qGpwVG8XrDX0pj"
           alt="Latest News and Announcements"
           fill
           className="object-cover object-center"

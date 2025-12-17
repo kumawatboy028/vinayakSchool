@@ -8,7 +8,7 @@ const SchoolTiming = () => {
       {/* Hero */}
       <div className="relative w-full h-[350px]">
         <Image
-          src="/images/heroBanner/school-timing.png"
+          src="https://drive.google.com/uc?id=1hi62Id2zS1Fa6MT07YMzqCTL57nzpblR"
           alt="School Timing - Vinayak International School"
           fill
           className="object-cover object-center"

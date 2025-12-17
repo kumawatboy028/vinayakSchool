@@ -5,11 +5,8 @@ import { useState, useEffect } from "react";
 
 const images = [
   "https://drive.google.com/uc?id=1WLCj2yoPF2ta4T--9NaqxdcU1jPzUV86",
-  "/images/heroBanner/schoolOverview.jpg",
-  "/images/heroBanner/fest1.jpg",
-  "/images/heroBanner/fest2.jpg",
-  "/images/heroBanner/fest3.jpg",
-  "/images/heroBanner/visit1.jpg",
+  "https://drive.google.com/uc?id=1enAMblia0-3Fs9gElPUPIXEALhl-VFTm",
+  "https://drive.google.com/uc?id=1piJzuAvBJxpJ2QZoqAx5g-2QBKybOVOL",
 ];
 
 const HeroBanner = () => {

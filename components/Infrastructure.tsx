@@ -15,7 +15,7 @@ const facilities = [
       "Interactive digital boards and modern teaching aids for enhanced learning experience.",
     icon: <FaDesktop className="text-blue-600 text-2xl" />,
     bg: "bg-blue-100",
-    image: "/images/facilities/smartclass.jpg",
+    image: "https://drive.google.com/uc?id=1x0Ry2SFRNboDJAmI9H-61fX4ncO_pxT2",
   },
   {
     title: "Sports Complex",
@@ -23,7 +23,7 @@ const facilities = [
       "Multi-sport playground with basketball, volleyball, and cricket facilities.",
     icon: <FaGamepad className="text-green-600 text-2xl" />,
     bg: "bg-green-100",
-    image: "/images/facilities/sports_complex.jpg",
+    image: "https://drive.google.com/uc?id=1KD1jxNc9bwC4rJqy_cGFj5rjufcfwHzB",
   },
   {
     title: "Safe Transport",
@@ -31,7 +31,7 @@ const facilities = [
       "GPS-enabled buses with trained drivers ensuring safe commute for students.",
     icon: <FaBus className="text-purple-600 text-2xl" />,
     bg: "bg-purple-100",
-    image: "/images/facilities/transport.jpeg",
+    image: "https://drive.google.com/uc?id=1WxP4ULT5VPWj4Hes_NIQCeAzUq65JFxo",
   },
   {
     title: "Modern Library",
@@ -39,7 +39,7 @@ const facilities = [
       "Extensive collection of books, digital resources, and quiet study spaces.",
     icon: <FaBook className="text-orange-600 text-2xl" />,
     bg: "bg-purple-100",
-    image: "/images/facilities/library.jpeg",
+    image: "https://drive.google.com/uc?id=1qr85moM3GrtlnwS8Zy4_sBt_h7PK2Bct",
   },
   {
     title: "Science Lab",
@@ -47,7 +47,7 @@ const facilities = [
       "Well-equipped physics, chemistry, and biology labs for hands-on learning.",
     icon: <FaMicroscope className="text-red-600 text-2xl" />,
     bg: "bg-purple-100",
-    image: "/images/facilities/science_lab.jpeg",
+    image: "https://drive.google.com/uc?id=1vXpVXCgzxNLLq0IBfeHVeFZDkX9L2wvx",
   },
   {
     title: "Computer Lab",
@@ -55,7 +55,7 @@ const facilities = [
       "Latest computers with high-speed internet for digital literacy programs.",
     icon: <FaTv className="text-teal-600 text-2xl" />,
     bg: "bg-purple-100",
-    image: "/images/facilities/computer_lab.jpg",
+    image: "https://drive.google.com/uc?id=1zrhAdHFbb_rW32dzny7Tcsxst1I1kZMy",
   },
 ];
 

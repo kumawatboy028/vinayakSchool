@@ -8,7 +8,7 @@ const GuidingStatements = () => {
       {/* Hero Image Section */}
       <div className="relative w-full h-[320px]">
         <Image
-          src="/images/heroBanner/schoolOverview.jpg"
+          src="https://drive.google.com/uc?id=1enAMblia0-3Fs9gElPUPIXEALhl-VFTm"
           alt="Guidance and Counselling"
           fill
           className="object-cover object-center"

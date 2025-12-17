@@ -32,7 +32,7 @@ const Gallery = () => {
       {/* Hero Section */}
       <div className="relative w-full h-[300px]">
         <Image
-          src="/images/heroBanner/our-gallery.png"
+          src="https://drive.google.com/uc?id=1WVxP4SMZj_1LuTwFB381T_PXed8iq8Pk"
           alt="School Gallery"
           fill
           className="object-cover object-center"

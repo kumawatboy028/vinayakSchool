@@ -6,7 +6,7 @@ const ComputerLab = () => {
       {/* Hero Section */}
       <div className="relative w-full h-[320px]">
         <Image
-          src="/images/heroBanner/computer-lab.png"
+          src="https://drive.google.com/uc?id=1IrtKLH2_tcRvvg7W7fTsJn0w0mptY2E_"
           alt="Facilities - Vinayak International School"
           fill
           className="object-cover object-center"
@@ -42,7 +42,7 @@ const ComputerLab = () => {
         </div>
         <div className="flex-1">
           <Image
-            src="/images/facilities/computer_lab.jpg"
+            src="https://drive.google.com/uc?id=1zrhAdHFbb_rW32dzny7Tcsxst1I1kZMy"
             alt="Computer Lab"
             width={550}
             height={400}

@@ -8,7 +8,7 @@ const SchoolUniform = () => {
       {/* Hero */}
       <div className="relative w-full h-[350px]">
         <Image
-          src="/images/banners/morning_assembly.jpg"
+          src="https://drive.google.com/uc?id=16Dupycu01YIAaZN_hY1FKvWLhzoImKhs"
           alt="School Uniform Guidelines - Vinayak International School"
           fill
           className="object-cover object-center"

@@ -37,7 +37,7 @@ const RanksHonors = () => {
       {/* Hero Section */}
       <div className="relative w-full h-[300px]">
         <Image
-          src="/images/heroBanner/ranks-and-honors.png"
+          src="https://drive.google.com/uc?id=1_3wLWWCmHRUSgk29OAuEbYQV9uQdnpj7"
           alt="Ranks and Honors"
           fill
           className="object-cover object-center"

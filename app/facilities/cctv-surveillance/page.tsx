@@ -6,7 +6,7 @@ const CCTVSurveillance = () => {
       {/* Hero Section */}
       <div className="relative w-full h-[320px]">
         <Image
-          src="/images/heroBanner/cctv-surrveillance.png"
+          src="https://drive.google.com/18bpmDwbcRlxFn4kou85i390p8n6R29CR"
           alt="CCTV Surveillance - Vinayak International School"
           fill
           className="object-cover object-center"

@@ -7,7 +7,7 @@ const MusicDance = () => {
       {/* Header */}
       <div className="relative w-full h-[320px]">
         <Image
-          src="/images/heroBanner/music-and-dance.png"
+          src="https://drive.google.com/uc?id=1J2PsfTSFL60nGSO135laiDFkRJC-B8ub"
           alt="Music & Dance - Vinayak International School"
           fill
           className="object-cover object-center"

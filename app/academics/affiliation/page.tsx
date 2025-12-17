@@ -8,7 +8,7 @@ const SchoolAffiliationDetails = () => {
       {/* Hero */}
       <div className="relative w-full h-[320px]">
         <Image
-          src="/images/heroBanner/affiliation-details.png"
+          src="https://drive.google.com/uc?id=1RKnLNcme8xQagOGqKbNXu5meLN-jx5cN"
           alt="School Affiliation Details - Vinayak International School"
           fill
           className="object-cover object-center"

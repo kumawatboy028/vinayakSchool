@@ -7,7 +7,7 @@ const SchoolRulesAndPolicies = () => {
     <section className="w-full bg-white">
       <div className="relative w-full h-[320px]">
         <Image
-          src="/images/heroBanner/schoolOverview.jpg"
+          src="https://drive.google.com/uc?id=1enAMblia0-3Fs9gElPUPIXEALhl-VFTm"
           alt="School Rules and Policies - Vinayak International School"
           fill
           className="object-cover object-center"
