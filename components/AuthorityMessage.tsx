@@ -10,7 +10,8 @@ const messages = [
     name: "Mr. Mahesh Kumar Sharma",
     position: "Chairman",
     qualifications: "",
-    image: "/images/authorities/chairman.jpg",
+    image:
+      "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/authorities/chairman.jpg",
   },
   {
     role: `Managing Director's Message`,
@@ -18,7 +19,8 @@ const messages = [
     name: "Er. Rahul Sharma",
     position: `Managing Director`,
     qualifications: "B.Tech. (CSE)",
-    image: "/images/authorities/director.png",
+    image:
+      "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/authorities/director.png",
   },
   {
     role: `Principal's Message`,
@@ -26,7 +28,8 @@ const messages = [
     name: "Dr. Anant Sharma",
     position: "Principal",
     qualifications: "Ph.D., NET-MBA, M.Sc., M.Com., M.A., B.Ed. & CTET",
-    image: "/images/authorities/principal.jpg",
+    image:
+      "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/authorities/principal.jpeg",
   },
 ];
 

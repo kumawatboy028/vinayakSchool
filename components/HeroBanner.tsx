@@ -5,9 +5,9 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 
 const images = [
-  "https://drive.google.com/uc?id=1WLCj2yoPF2ta4T--9NaqxdcU1jPzUV86",
+  "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/banners/school.jpg",
   "/images/schoolOverview.jpg",
-  "https://drive.google.com/uc?id=1piJzuAvBJxpJ2QZoqAx5g-2QBKybOVOL",
+  "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/facilities/transport.jpeg",
 ];
 
 const HeroBanner = () => {

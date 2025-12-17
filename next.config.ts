@@ -20,6 +20,11 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "*.googleusercontent.com", // 👈 Added wildcard '*' to catch all subdomains
       },
+      // ✅ Vercel Blob (IMPORTANT)
+      {
+        protocol: "https",
+        hostname: "*.blob.vercel-storage.com",
+      },
     ],
   },
 };

@@ -31,7 +31,7 @@ const DigitalWorkstation = () => {
           </div>
           <div className="flex-1">
             <Image
-              src="https://drive.google.com/uc?id=1zrhAdHFbb_rW32dzny7Tcsxst1I1kZMy"
+              src="https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/facilities/computer_lab.jpg"
               alt="Students in computer lab"
               width={500}
               height={350}
@@ -55,7 +55,7 @@ const DigitalWorkstation = () => {
           </div>
           <div className="flex-1">
             <Image
-              src="/images/smartclass.jpg"
+              src="https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/facilities/smartclass.jpg"
               alt="Students in smart classroom"
               width={500}
               height={350}
@@ -79,7 +79,7 @@ const DigitalWorkstation = () => {
           </div>
           <div className="flex-1">
             <Image
-              src="https://drive.google.com/uc?id=1lOkYvgWUcphp6heXLXsFWo5K0Ieqtp8l"
+              src="https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/facilities/digital_learning.jpg"
               alt="Students engaged in digital learning"
               width={500}
               height={350}

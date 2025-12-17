@@ -29,7 +29,7 @@ const ChairmanMessage = () => {
         <div className="float-left mr-6 mb-4">
           <div className="w-56 h-72 rounded-lg shadow-lg relative overflow-hidden bg-gray-200">
             <Image
-              src="/images/authorities/chairman.jpg"
+              src="https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/authorities/chairman.jpg"
               alt="Mahesh Kumar Sharma - Chairman of Vinayak International School"
               fill
               className="object-cover object-center"

@@ -43,7 +43,7 @@ const ComputerLab = () => {
         </div>
         <div className="flex-1">
           <Image
-            src="https://drive.google.com/uc?id=1zrhAdHFbb_rW32dzny7Tcsxst1I1kZMy"
+            src="https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/computer_lab.jpg"
             alt="Computer Lab"
             width={550}
             height={400}

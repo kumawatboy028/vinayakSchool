@@ -8,7 +8,8 @@ const newsData = [
     date: "November 25, 2025",
     description:
       "Vinayak International School proudly hosted its Annual Sports Day with great enthusiasm. Students participated in athletics, volleyball, Kho-Kho, Kabaddi, and cultural performances.",
-    image: "https://drive.google.com/uc?id=14ytsS7ZCjjlxbsoTiuSPFg2183Ly0-fn",
+    image:
+      "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/news/news1.jpeg",
   },
 ];
 

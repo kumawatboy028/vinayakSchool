@@ -10,37 +10,30 @@ const galleryData = [
     description:
       "Celebrating the innocence, curiosity, and bright potential of every child at our school.",
     imageUrl:
-      "https://drive.google.com/uc?id=1KD1jxNc9bwC4rJqy_cGFj5rjufcfwHzB",
+      "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/banners/school.jpg",
   },
   {
     id: 2,
     title: "Sports Week Highlights",
     description: "Snapshots from our grand Sports week celebration.",
     imageUrl:
-      "https://drive.google.com/uc?id=1KD1jxNc9bwC4rJqy_cGFj5rjufcfwHzB",
+      "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/banners/sports_day.jpg",
   },
   {
     id: 3,
-    title: "New Year Celebrations",
-    description: "Students performing at the New Year program.",
-    imageUrl:
-      "https://drive.google.com/uc?id=1WLCj2yoPF2ta4T--9NaqxdcU1jPzUV86",
-  },
-  {
-    id: 4,
     title: "Hands-on Robotics Workshop",
     description:
       "Transforming students from technology consumers into technology creators.",
     imageUrl:
-      "https://drive.google.com/uc?id=1vlUmq95OoC8WTzGW7fosC2bF1N0KoD84",
+      "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/facilities/digital_learning.jpg",
   },
   {
-    id: 5,
+    id: 4,
     title: "Teachers' Day Celebration",
     description:
       "A Tribute to Our Mentors: Honoring the Architects of Our Future",
     imageUrl:
-      "https://drive.google.com/uc?id=1epBS3U5_pSmJyVDDUye0YhMrk3VYUjOm",
+      "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/events/teachersday.jpg",
   },
 ];
 

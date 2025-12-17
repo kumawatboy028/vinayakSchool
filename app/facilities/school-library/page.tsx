@@ -44,7 +44,7 @@ const SchoolLibrary = () => {
         </div>
         <div className="flex-1">
           <Image
-            src="https://drive.google.com/uc?id=1qr85moM3GrtlnwS8Zy4_sBt_h7PK2Bct"
+            src="https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/facilities/library.jpeg"
             alt="School Library"
             width={550}
             height={400}

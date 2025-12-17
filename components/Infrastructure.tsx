@@ -15,7 +15,8 @@ const facilities = [
       "Interactive digital boards and modern teaching aids for enhanced learning experience.",
     icon: <FaDesktop className="text-blue-600 text-2xl" />,
     bg: "bg-blue-100",
-    image: "/images/smartclass.jpg",
+    image:
+      "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/facilities/smartclass.jpg",
   },
   {
     title: "Sports Complex",
@@ -23,7 +24,8 @@ const facilities = [
       "Multi-sport playground with basketball, volleyball, and cricket facilities.",
     icon: <FaGamepad className="text-green-600 text-2xl" />,
     bg: "bg-green-100",
-    image: "https://drive.google.com/uc?id=1KD1jxNc9bwC4rJqy_cGFj5rjufcfwHzB",
+    image:
+      "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/facilities/sports_complex.jpg",
   },
   {
     title: "Safe Transport",
@@ -31,7 +33,8 @@ const facilities = [
       "GPS-enabled buses with trained drivers ensuring safe commute for students.",
     icon: <FaBus className="text-purple-600 text-2xl" />,
     bg: "bg-purple-100",
-    image: "https://drive.google.com/uc?id=1WxP4ULT5VPWj4Hes_NIQCeAzUq65JFxo",
+    image:
+      "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/facilities/transport.jpeg",
   },
   {
     title: "Modern Library",
@@ -39,7 +42,8 @@ const facilities = [
       "Extensive collection of books, digital resources, and quiet study spaces.",
     icon: <FaBook className="text-orange-600 text-2xl" />,
     bg: "bg-purple-100",
-    image: "https://drive.google.com/uc?id=1qr85moM3GrtlnwS8Zy4_sBt_h7PK2Bct",
+    image:
+      "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/facilities/library.jpeg",
   },
   {
     title: "Science Lab",
@@ -47,7 +51,8 @@ const facilities = [
       "Well-equipped physics, chemistry, and biology labs for hands-on learning.",
     icon: <FaMicroscope className="text-red-600 text-2xl" />,
     bg: "bg-purple-100",
-    image: "https://drive.google.com/uc?id=1vXpVXCgzxNLLq0IBfeHVeFZDkX9L2wvx",
+    image:
+      "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/banners/bio-lab.jpeg",
   },
   {
     title: "Computer Lab",
@@ -55,7 +60,8 @@ const facilities = [
       "Latest computers with high-speed internet for digital literacy programs.",
     icon: <FaTv className="text-teal-600 text-2xl" />,
     bg: "bg-purple-100",
-    image: "https://drive.google.com/uc?id=1zrhAdHFbb_rW32dzny7Tcsxst1I1kZMy",
+    image:
+      "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/facilities/computer_lab.jpg",
   },
 ];
 

@@ -50,7 +50,7 @@ const DirectorMessage = () => {
             <div className="flex-shrink-0 w-full md:w-1/3 flex justify-center">
               <div className="w-64 h-80 rounded-lg shadow-lg relative overflow-hidden bg-gray-200">
                 <Image
-                  src="/images/authorities/director.png"
+                  src="https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/authorities/director.png"
                   alt="Mr. Rahul Sharma - Director of Vinayak International School"
                   fill
                   className="object-cover object-center"
