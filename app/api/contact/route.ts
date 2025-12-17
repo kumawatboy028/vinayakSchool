@@ -13,7 +13,6 @@ export async function POST(request: Request) {
       );
     }
 
-    console.log("PROCESS ENV --->>>>>>", process.env);
     if (!process.env.EMAIL_USER || !process.env.EMAIL_PASS) {
       return NextResponse.json(
         { message: "Email credentials not set" },
