@@ -75,7 +75,7 @@ const GetInTouch = () => {
     {
       icon: Phone,
       title: "Phone",
-      content: "+91 9829748121, 01571-223121",
+      content: "+91 9829748121",
       bgColor: "bg-green-100",
       iconColor: "text-green-600",
     },
@@ -89,7 +89,7 @@ const GetInTouch = () => {
     {
       icon: Clock,
       title: "Office Hours",
-      content: "Mon - Sat: 7:10 AM - 5:00 PM",
+      content: "Mon - Sat: 9:00 AM - 3:00 PM",
       bgColor: "bg-orange-100",
       iconColor: "text-orange-600",
     },

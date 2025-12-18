@@ -18,7 +18,7 @@ const messages = [
     message: `At Vinayak International School, we are committed to fostering a culture of excellence and innovation. Our mission is to create a learning environment that encourages creativity, critical thinking, and lifelong learning.`,
     name: "Er. Rahul Sharma",
     position: `Managing Director`,
-    qualifications: "B.Tech. (CSE)",
+    qualifications: "B.Tech. (CSE) BITS",
     image:
       "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/authorities/director.png",
   },

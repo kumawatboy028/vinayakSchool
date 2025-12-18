@@ -16,7 +16,6 @@ const Contact = () => {
             className="text-gray-800 dark:text-gray-300 hover:text-red-700 transition-colors font-medium text-center sm:text-right"
           >
             <span className="hidden xs:inline">For Admission Call us: </span>
-            <span className="underline sm:no-underline">01571-223121</span>,
             <span className="underline sm:no-underline ml-1">
               +91-9829748121
             </span>
