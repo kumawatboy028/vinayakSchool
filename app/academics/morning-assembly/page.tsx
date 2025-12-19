@@ -8,10 +8,9 @@ const MorningAssembly = () => (
         src="/images/schoolOverview.jpg"
         alt="Morning Assembly"
         fill
-        className="object-cover object-center"
+        className="object-revert object-center"
         priority
         sizes="100vw"
-        objectFit="revert"
       />
       <div className="absolute inset-0 flex items-center justify-center bg-black/60">
         <h1 className="text-4xl md:text-5xl font-bold text-white">

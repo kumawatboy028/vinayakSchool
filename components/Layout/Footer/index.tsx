@@ -24,14 +24,24 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { name: "Facebook", icon: Facebook, href: "#", color: "hover:bg-blue-600" },
+    {
+      name: "Facebook",
+      icon: Facebook,
+      href: "https://www.facebook.com/visftr#",
+      color: "hover:bg-blue-600",
+    },
     {
       name: "Instagram",
       icon: Instagram,
-      href: "#",
+      href: "https://www.instagram.com/visftr/",
       color: "hover:bg-pink-600",
     },
-    { name: "Twitter", icon: Twitter, href: "#", color: "hover:bg-sky-500" },
+    {
+      name: "Twitter",
+      icon: Twitter,
+      href: "https://x.com/visftr",
+      color: "hover:bg-sky-500",
+    },
     { name: "YouTube", icon: Youtube, href: "#", color: "hover:bg-red-600" },
   ];
 
