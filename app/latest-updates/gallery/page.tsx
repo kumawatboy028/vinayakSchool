@@ -35,6 +35,36 @@ const galleryData = [
     imageUrl:
       "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/events/teachersday.jpg",
   },
+  {
+    id: 5,
+    title: "Krishna Janmashtami Celebration",
+    description:
+      "Celebrating the Birth of Lord Krishna: A Day of Devotion, Culture, and Joy",
+    imageUrl:
+      "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/gallery/gallery5.jpeg",
+  },
+  {
+    id: 6,
+    title: "Investiture Ceremony 2025",
+    description:
+      "Empowering Future Leaders: Celebrating Responsibility and Service",
+    imageUrl:
+      "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/gallery/gallery6.jpeg",
+  },
+  {
+    id: 7,
+    title: "Plantation Drive 2025",
+    description: "Nurturing Nature: Our Commitment to a Greener Tomorrow",
+    imageUrl:
+      "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/gallery/gallery7.jpeg",
+  },
+  {
+    id: 8,
+    title: "Independence Day Celebration",
+    description: "Honoring Freedom: Celebrating Our Nation's Independence",
+    imageUrl:
+      "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/gallery/gallery8.jpeg",
+  },
 ];
 
 const Gallery = () => {
@@ -74,7 +104,7 @@ const Gallery = () => {
                   src={item.imageUrl}
                   alt={item.title}
                   fill
-                  className="object-cover"
+                  className="object-revert"
                 />
               </div>
               <div className="p-6">

@@ -7,8 +7,8 @@ const updates = [
     date: "November 25, 2025",
     title: "Annual Sports Day 2025",
     description:
-      "Join us for our annual sports day celebration with exciting competitions and performances.",
-    tag: "Upcoming Event",
+      "Grand celebration of Annual Sports Week concludes, highlighting the integration of physical excellence and holistic education.",
+    tag: "Event",
     tagColor: "bg-green-100 text-green-800",
   },
   {
@@ -16,17 +16,17 @@ const updates = [
     title: "Children's Day Celebration",
     description:
       "Young Entrepreneurs in Action: The Annual Children’s Fair Sub-headline: Learning the art of business through ownership, creativity, and commerce.",
-    tag: "Achievement",
+    tag: "Event",
     tagColor: "bg-blue-100 text-blue-800",
   },
-  // {
-  //   date: "July 21, 2025",
-  //   title: "New Computer Lab Inauguration",
-  //   description:
-  //     "State-of-the-art computer lab with latest technology inaugurated for enhanced learning.",
-  //   tag: "Infrastructure",
-  //   tagColor: "bg-purple-100 text-purple-800",
-  // },
+  {
+    date: "December 14, 2025",
+    title: "Parents And Teachers Meeting",
+    description:
+      "Interactive Parent-Teacher Meeting held to review academic milestones and personalize learning paths for every student.",
+    tag: "Event",
+    tagColor: "bg-purple-100 text-purple-800",
+  },
 ];
 
 const LatestUpdates = () => {

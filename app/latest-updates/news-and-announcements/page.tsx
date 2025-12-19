@@ -1,23 +1,23 @@
-// pages/news.tsx
+"use client";
+
 import Image from "next/image";
+import { useState } from "react";
 
 const newsData = [
   {
     id: 1,
-    title: "Annual Sports Day Celebration",
-    date: "November 25, 2025",
-    description:
-      "Vinayak International School proudly hosted its Annual Sports Day with great enthusiasm. Students participated in athletics, volleyball, Kho-Kho, Kabaddi, and cultural performances.",
     image:
       "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/news/news1.jpeg",
   },
 ];
 
 const NewsAndAnnouncement = () => {
+  const [selectedImg, setSelectedImg] = useState<string | null>(null);
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <div className="relative w-full h-[200px] sm:h-[300px] md:h-[300px] lg:h-[300px]">
+      <div className="relative w-full h-[200px] sm:h-[300px]">
         <Image
           src="/images/schoolOverview.jpg"
           alt="Latest News and Announcements"
@@ -28,40 +28,67 @@ const NewsAndAnnouncement = () => {
           objectFit="revert"
         />
         <div className="absolute inset-0 flex items-center justify-center bg-black/50">
-          <h1 className="text-4xl md:text-5xl font-bold text-white">
+          <h1 className="text-4xl md:text-5xl font-bold text-white text-center">
             Latest News & Announcements
           </h1>
         </div>
       </div>
 
-      {/* News Section */}
+      {/* News Image Grid */}
       <section className="max-w-6xl mx-auto py-12 px-6">
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {newsData.map((news) => (
             <div
               key={news.id}
-              className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
+              className="group relative aspect-square bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all cursor-pointer"
+              onClick={() => setSelectedImg(news.image)}
             >
-              <div className="relative w-full h-48">
-                <Image
-                  src={news.image}
-                  alt={news.title}
-                  fill
-                  className="object-contain"
-                  sizes="100vw"
-                />
-              </div>
-              <div className="p-6">
-                <h2 className="text-xl font-bold text-amber-800 mb-2">
-                  {news.title}
-                </h2>
-                <p className="text-sm text-gray-500 mb-3">{news.date}</p>
-                <p className="text-gray-600 mb-4">{news.description}</p>
+              <Image
+                src={news.image}
+                alt="News Update"
+                fill
+                className="object-revert transition-transform duration-500 group-hover:scale-110"
+                sizes="(max-width: 768px) 100vw, 33vw"
+              />
+
+              {/* Overlay on Hover */}
+              <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                <div className="bg-white/20 backdrop-blur-md px-4 py-2 rounded-full border border-white/30">
+                  <p className="text-white text-sm font-medium">
+                    View Full Screen
+                  </p>
+                </div>
               </div>
             </div>
           ))}
         </div>
       </section>
+
+      {/* --- LIGHTBOX MODAL --- */}
+      {selectedImg && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/95 p-4"
+          onClick={() => setSelectedImg(null)}
+        >
+          {/* Close Button */}
+          <button
+            className="absolute top-6 right-8 text-white text-4xl hover:text-gray-400 transition-colors z-[60]"
+            onClick={() => setSelectedImg(null)}
+          >
+            &times;
+          </button>
+
+          <div className="relative w-full max-w-5xl h-[85vh]">
+            <Image
+              src={selectedImg}
+              alt="Full Screen View"
+              fill
+              className="object-contain"
+              priority
+            />
+          </div>
+        </div>
+      )}
     </div>
   );
 };
