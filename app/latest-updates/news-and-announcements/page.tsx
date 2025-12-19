@@ -9,6 +9,31 @@ const newsData = [
     image:
       "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/news/news1.jpeg",
   },
+  {
+    id: 2,
+    image:
+      "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/news/news2.jpeg",
+  },
+  {
+    id: 3,
+    image:
+      "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/news/news3.jpeg",
+  },
+  {
+    id: 4,
+    image:
+      "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/news/news4.jpeg",
+  },
+  {
+    id: 5,
+    image:
+      "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/news/news5.jpeg",
+  },
+  {
+    id: 6,
+    image:
+      "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/news/news6.jpeg",
+  },
 ];
 
 const NewsAndAnnouncement = () => {
