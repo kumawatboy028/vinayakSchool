@@ -121,7 +121,9 @@ const Footer = () => {
               </div>
               <div className="flex flex-col sm:flex-row items-center sm:items-start gap-3">
                 <Phone className="w-5 h-5 text-[#fec375] flex-shrink-0" />
-                <p className="text-sm text-orange-50/90">+91 98297 48121</p>
+                <a href="tel:+919829748121">
+                  <p className="text-sm text-orange-50/90">+91 98297 48121</p>
+                </a>
               </div>
               <div className="flex flex-col sm:flex-row items-center sm:items-start gap-3">
                 <Mail className="w-5 h-5 text-[#fec375] flex-shrink-0" />

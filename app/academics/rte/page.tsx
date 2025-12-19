@@ -111,7 +111,7 @@ const RTEAdmission = () => {
             school office during working hours or reach us at:
           </p>
           <p className="text-gray-800 font-medium mt-2">
-            📞 Phone: +91-9829748121 <br />
+            <a href="tel:+919829748121">📞 Phone: +91-9829748121</a> <br />
             📧 Email: visftr@gmail.com
           </p>
         </div>
