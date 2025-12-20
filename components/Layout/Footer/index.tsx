@@ -78,6 +78,7 @@ const Footer = () => {
                   <a
                     key={social.name}
                     href={social.href}
+                    target="_blank"
                     className={`w-10 h-10 rounded-full bg-white/10 flex items-center justify-center transition-all duration-300 ${social.color} hover:scale-110`}
                   >
                     <Icon className="w-5 h-5" />
@@ -121,7 +122,7 @@ const Footer = () => {
               </div>
               <div className="flex flex-col sm:flex-row items-center sm:items-start gap-3">
                 <Phone className="w-5 h-5 text-[#fec375] flex-shrink-0" />
-                <a href="tel:+919829748121">
+                <a href="tel:+919829748121" target="_blank">
                   <p className="text-sm text-orange-50/90">+91 98297 48121</p>
                 </a>
               </div>
