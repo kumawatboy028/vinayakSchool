@@ -49,7 +49,7 @@ const menuItems = [
       { name: "Our Curriculum", href: "/academics/curriculum" },
       { name: "Admission under RTE", href: "/academics/rte" },
       { name: "Streams Offered", href: "/academics/streams" },
-      { name: "Ranks and Honors", href: "/academics/ranks-and-honors" },
+      // { name: "Ranks and Honors", href: "/academics/ranks-and-honors" },
       { name: "Career Counselling", href: "/academics/career-counselling" },
       { name: "Examination", href: "/academics/examination" },
       { name: "Morning Assembly", href: "/academics/morning-assembly" },
