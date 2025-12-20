@@ -3,38 +3,14 @@
 import Image from "next/image";
 import { useState } from "react";
 
-const newsData = [
-  {
-    id: 1,
-    image:
-      "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/news/news1.jpeg",
-  },
-  {
-    id: 2,
-    image:
-      "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/news/news2.jpeg",
-  },
-  {
-    id: 3,
-    image:
-      "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/news/news3.jpeg",
-  },
-  {
-    id: 4,
-    image:
-      "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/news/news4.jpeg",
-  },
-  {
-    id: 5,
-    image:
-      "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/news/news5.jpeg",
-  },
-  {
-    id: 6,
-    image:
-      "https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/news/news6.jpeg",
-  },
-];
+// Dynamically generate newsData from id 1 to 41
+const newsData = Array.from({ length: 41 }, (_, i) => {
+  const id = i + 1;
+  return {
+    id: id,
+    image: `https://pogrclmgp8cnsul5.public.blob.vercel-storage.com/news/news${id}.jpeg`,
+  };
+});
 
 const NewsAndAnnouncement = () => {
   const [selectedImg, setSelectedImg] = useState<string | null>(null);
